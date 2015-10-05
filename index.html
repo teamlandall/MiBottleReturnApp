@@ -8,11 +8,27 @@
 
 <body>
 
-<div ng-app="xxxxx">
+<div class="row">
+	<div class="col-xs-1"> </div> 
+	<div class="col-xs-8"><a href="/">
+		<h2>Bottle Return App</h2></a>
+	</div>
+	<div class="col-xs-1">
+		<a role="button" class="btn btn-default" href="#/contractor">Contractor</a>
+	</div>
+	<div class="col-xs-1">
+		<a role="button" class="btn btn-default" href="#/hoarder">Hoarder</a>
+	</div>
+	<div class="col-xs-1"> </div> 
+</div>
 
-	<ng-view> </ng-view>
+<div class="container">
+	<div ng-app="bottleReturn">
 
-</div> <!-- end of app -->
+		<ng-view> </ng-view>
+
+	</div> <!-- end of app -->
+</div>
 
 	
 
