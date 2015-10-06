@@ -12,12 +12,11 @@ var geoJson = [{
     type: 'Feature',
     "geometry": { "type": "Point", "coordinates": [-83.04483890533447, 42.3358062691065]},
     "properties": {
+        "title": "Dan Carpenter " + " - " + "351 Gratiot Ave.",
+        "description": "Bottles for pickup: " + "209",
         "marker-color": "#a3e46b",
         "marker-size": "large",
-        "marker-symbol": "waste-basket",
-        "name": "Dan Carpenter",
-        "address": "351 Gratiot Ave., Detroit MI",
-        "bottles": "209"
+        "marker-symbol": "waste-basket"
     }
 }
 ];
@@ -28,8 +27,8 @@ myLayer.on('layeradd', function(e) {
         feature = marker.feature;
 
     // Create custom popup content
-		var popupContent =  '<p><b>' + feature.properties.name + ' - ' + feature.properties.address +'</b><br>' +
-     					'Bottles for pickup: ' + feature.properties.bottles + '</p>';
+        var popupContent =  '<b>' + feature.properties.title + '</b>' + '<br>' +
+                         feature.properties.description;
 
     // http://leafletjs.com/reference.html#popup
     marker.bindPopup(popupContent,{
