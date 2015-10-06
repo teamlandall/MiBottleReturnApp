@@ -1,15 +1,24 @@
 var app = angular.module('bottleReturn');
 
 app.factory('getAddress', function (){
-	var fullName = '';
+	var newFullName = '';
+	var newAddress = '';
+	var newQty = '';
 	return {
-		fromInput: function(input){
-			fullName = input;
+		fromInput: function(name, address, qty){
+			newFullName = name;
+			newAddress = address;
+			newQty = qty;
 		},
-		toDisplay: function(){
-			return fullName;
+		toDisplayName: function(){
+			return newFullName;
 		},
-		
+		toDisplayAddress: function(){
+			return newAddress;
+		},
+		toDisplayQty: function(){
+			return newQty;
+		},
 	}
 		
 });

@@ -8,17 +8,17 @@
 	      <tr>
 	        <th>Name</th>
 	        <th>Address</th>
-	        <th>Estimated # of Bottles</th>
+	        <th>Total Bottles</th>
 	      </tr> 
 	      <tr>
 	      	<td> {{ name }} </td>
-	      	<td> Address from form </td>
-	      	<td> qty from form </td>
+	      	<td> {{ address }} </td>
+	      	<td> {{qty}} </td>
 	      </tr>
-      <tr ng-repeat="dummy in dummyUsers">
-	        <td> {{ dummy.name }} </td>
-	        <td> {{ dummy.address }} </td>
-	        <td> {{ dummy.qty }} </td>
+      <tr ng-repeat="data in databaseOfUsers">
+	        <td> {{ data.name }} </td>
+	        <td> {{ data.address }} </td>
+	        <td> {{ data.qty }} </td>
       </tr>
     </table>
 	</div>
