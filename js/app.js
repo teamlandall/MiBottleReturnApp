@@ -1,4 +1,4 @@
-var app = angular.module('bottleReturn', ['ngRoute']);
+var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap']);
 
 app.config(function($routeProvider){
 	$routeProvider.when('/', {

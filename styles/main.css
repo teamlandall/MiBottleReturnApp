@@ -31,4 +31,50 @@ a:visited {
 	border: 2px solid black;
 }
 
+/****** Date Picker **********/
+
+.full button span {
+background-color: limegreen;
+border-radius: 32px;
+color: black;
+}
+
+.partially button span {
+background-color: orange;
+border-radius: 32px;
+color: black;
+}
+
+#date-pick{
+	margin-top: 25px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#cal-glyph{
+	margin-top: 25px;
+}
+
+#time-pick{
+	margin-top: -10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#time-pick button{
+	margin-top: 0px;
+}
+
+#date-time-row{
+	margin-top: 15px;
+}
+
+#submit-btn{
+	margin-left: 15px;
+}
+
+
+
 
