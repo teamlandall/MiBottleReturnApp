@@ -1,8 +1,10 @@
 var app = angular.module('bottleReturn');
 
-app.controller('hoarderController', ['$scope', 'getAddress', function($scope, getAddress){
-	$scope.submit = function(name, address, qty){
-  	getAddress.fromInput(name, address, qty);
+app.controller('hoarderController', ['$scope', 'getNewInfo', function($scope, getNewInfo){
+	$scope.submit = function(formData){
+  	getNewInfo.fromInput(formData);
   }
 
 }]);
+
+
