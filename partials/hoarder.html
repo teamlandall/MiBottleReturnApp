@@ -1,14 +1,43 @@
+
 <div class="container">
 	<div class="form-group">
 	    <label for="exampleInputName1" id="form-input"> Full Name </label>
-	    <input ng-model="newName" type="text" class="form-control" id="form" placeholder="ex. John Doe">
+	    <input ng-model="data.name" type="text" class="form-control" id="form" placeholder="ex. John Doe">
 	    <label for="exampleInputName1" id="form-input"> Address </label>
-	    <input ng-model="newAddress" type="text" class="form-control" id="form" placeholder="ex. 1932 E Franklin Street, Detroit, MI 48207">
+	    <input ng-model="data.address" type="text" class="form-control" id="form" placeholder="ex. 1932 E Franklin Street, Detroit, MI 48207">
 	    <label for="exampleInputName1" id="form-input"> Estimated # of Bottles </label>
-	    <input ng-model="newQty" type="text" class="form-control" id="form" placeholder="ex. 36">
+	    <input ng-model="data.qty" type="text" class="form-control" id="form" placeholder="ex. 36">
 
 
   	</div>
   
-  <a ng-click="submit(newName, newAddress, newQty)" role="button" value="add" class="btn btn-default" href="#/contractor">Submit</a>
+  <a ng-click="submit(data)" role="button" value="add" class="btn btn-default" href="#/contractor">Submit</a>
+</div>
+<p>
+<p>
+
+<div class="container">
+    <div class="col-sm-6" style="height:130px;">
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker8'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar">
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker8').datetimepicker({
+                icons: {
+                    time: 	"glyphicon glyphicon-time",
+                    date: 	"glyphicon glyphicon-calendar",
+                    up: 	"glyphicon glyphicon-chevron-up",
+                    down: 	"glyphicon glyphicon-chevron-down"
+                }
+            });
+        });
+    </script>
 </div>
