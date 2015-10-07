@@ -1,4 +1,4 @@
-var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap']);
+var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap', 'angular-mapbox']);
 
 app.config(function($routeProvider){
 	$routeProvider.when('/', {
@@ -35,6 +35,7 @@ app.config(function($routeProvider){
 
 app.controller('placeHolderController', function(){
 
+
 });
 
 app.controller('hoarderConfirmController', function(){
@@ -49,8 +50,19 @@ app.controller('contractorController', ['$scope', 'getNewInfo', 'getSignIn', fun
 
 }]);
 
+app.controller('mapController', function($scope, $timeout, mapboxService) {
+    mapboxService.init({ accessToken: 'pk.eyJ1Ijoia2tpZW5pbmdlciIsImEiOiJjaWZlM2FpYWg2ZDl4czRtNzZhb3hmcG9nIn0._7XdzBHRCxYnyGhsJgzO2w' });
+    $timeout(function() {
+      var map = mapboxService.getMapInstances()[0];
+      //mapboxService.fitMapToMarkers(map);
+    }, 100);
+
+});
+
 
 app.controller('404Controller', function(){
 
 });
+
+
 
