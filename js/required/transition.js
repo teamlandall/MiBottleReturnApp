@@ -29,7 +29,7 @@
       }
     }
 
-    return false // explicit for ie8 (  ._.)
+    return false // explicit for ie8 (  ._.)//
   }
 
   // http://blog.alexmaccaw.com/css-transitions
