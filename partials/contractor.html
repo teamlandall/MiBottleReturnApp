@@ -26,12 +26,32 @@
 	</div>
 
 	<div class="row">
-	<div class="col-xs-12">
-		<div id="map"> 
-		</div>
+	<div class="col-xs-12" ng-controller="mapController">
+ <!-- 		<div id="map"> 
+		</div> -->
+		  <mapbox map-id="kkieninger.cife3agsc6cy9rylxl7ldcgjn"
+          lat="42.347"
+          lng="-83.062"
+          on-reposition="mapMovedCallback"
+          on-zoom="mapZoomedCallback"
+          zoom="13" scale-to-fit>
+    		<marker ng-repeat="data in databaseOfUsers | filter: filterTerm"
+	            lat="{{data.lat}}"
+	            lng="{{data.lng}}"
+	            color="teal"
+	            icon="waste-basket"
+	            size="large">
+      			<h1>{{data.name}}</h1>
+      			<p>{{data.address}}</p>
+      			<p>Bottles for pickup: {{data.qty}}</p>
+      			<button>Pickup</button>
+    		</marker>
+  		</mapbox>
+
+
 	</div>
 	</div>
 
 </div>
-<script src="js/map.js"></script>
+<!-- <script src="js/map.js"></script> -->
 
