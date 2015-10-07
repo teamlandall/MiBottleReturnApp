@@ -6,9 +6,19 @@ app.config(function($routeProvider){
     controller: 'placeHolderController'
   });
 
+  $routeProvider.when('/sign-in', {
+    templateUrl: 'partials/sign-in.html',
+    controller: 'signInController'
+  });
+
   $routeProvider.when('/hoarder', {
     templateUrl: 'partials/hoarder.html',
     controller: 'hoarderController'
+  });
+
+  $routeProvider.when('/hoarderConfirm', {
+    templateUrl: 'partials/hoarderConfirm.html',
+    controller: 'hoarderConfirmController'
   });
 
   $routeProvider.when('/contractor', {
@@ -27,10 +37,15 @@ app.controller('placeHolderController', function(){
 
 });
 
-app.controller('contractorController', ['$scope', 'getNewInfo', function($scope, getNewInfo){
+app.controller('hoarderConfirmController', function(){
 
+});
+
+app.controller('contractorController', ['$scope', 'getNewInfo', 'getSignIn', function($scope, getNewInfo, getSignIn){
+
+    $scope.userName = getSignIn.toDisplay();
+    
     $scope.databaseOfUsers = getNewInfo.toDisplay();
-
 
 }]);
 

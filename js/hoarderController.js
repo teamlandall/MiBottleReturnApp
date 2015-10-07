@@ -1,9 +1,12 @@
 var app = angular.module('bottleReturn');
 
-app.controller('hoarderController', ['$scope', 'getNewInfo', function($scope, getNewInfo){
-	$scope.submit = function(formData){
+app.controller('hoarderController', ['$scope', 'getNewInfo', 'getSignIn', function($scope, getNewInfo, getSignIn){
+  
+  $scope.submit = function(formData){
   	getNewInfo.fromInput(formData);
   }
+
+  $scope.userName = getSignIn.toDisplay();
 
 }]);
 
@@ -77,10 +80,10 @@ app.controller('DatepickerCtrl', function ($scope) {
 // Time Picker Controller on Hoarder Partial
 
 app.controller('TimepickerCtrl', function ($scope, $log) {
-  $scope.reservationTime = new Date();
+  $scope.time = new Date();
 
   $scope.hstep = 1;
-  $scope.mstep = 1;
+  $scope.mstep = 30;
 
   $scope.options = {
     hstep: [1, 2, 3],
@@ -92,18 +95,18 @@ app.controller('TimepickerCtrl', function ($scope, $log) {
     $scope.ismeridian = ! $scope.ismeridian;
   };
 
-  $scope.update = function() {
-    var d = new Date();
-    d.setHours( 14 );
-    d.setMinutes( 0 );
-    $scope.reservationTime = d;
-  };
+  // $scope.update = function() {
+  //   var d = new Date();
+  //   d.setHours( 14 );
+  //   d.setMinutes( 0 );
+  //   $scope.reservationTime = d;
+  // };
 
-  $scope.changed = function () {
-    $log.log('Time changed to: ' + $scope.reservationTime);
-  };
+  // $scope.changed = function () {
+  //   $log.log('Time changed to: ' + $scope.reservationTime);
+  // };
 
-  $scope.clear = function() {
-    $scope.reservationTime = null;
-  };
+  // $scope.clear = function() {
+  //   $scope.reservationTime = null;
+  // };
 });

@@ -1,9 +1,10 @@
-
-<div class="container">
+<h4>  Welcome Back, {{ userName }} </h4>
+<div class="container-fluid">
 
 	<div class="form-group">
-	    <label for="exampleInputName1" id="form-input"> Full Name </label>
-	    <input ng-model="data.name" type="text" class="form-control" id="form" placeholder="ex. John Doe">
+	    <!-- <label for="exampleInputName1" id="form-input"> Full Name </label>
+	    <input ng-model="data.name" type="text" class="form-control" id="form" placeholder="ex. John Doe"> -->
+
 	    <label for="exampleInputName1" id="form-input"> Address </label>
 	    <input ng-model="data.address" type="text" class="form-control" id="form" placeholder="ex. 1932 E Franklin Street, Detroit, MI 48207">
 	    <label for="exampleInputName1" id="form-input"> Estimated # of Bottles </label>
@@ -25,11 +26,11 @@
 
 	<div ng-controller="TimepickerCtrl">
         <div class="col-md-6">
-			<timepicker id="time-pick" ng-model="data.reservationTime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+			<timepicker id="time-pick" ng-model="data.time" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
 		</div>
  	</div>
 
- 		<a id="submit-btn" ng-click="submit(data)" role="button" value="add" class="btn btn-default" href="#/contractor">Submit</a>
+ 		<a id="submit-btn" ng-click="submit(data)" role="button" value="add" class="btn btn-default" href="#/hoarderConfirm">Submit</a>
 
 	</div>
 
@@ -37,4 +38,6 @@
 
  </div>
 
+
+<!-- ng-change="changed()" -->
 
