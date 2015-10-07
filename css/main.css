@@ -48,6 +48,8 @@ a:visited {
 body {
     width: 100%;
     height: 100%;
+    padding: 10px 20px 5px 20px;
+    //background-image: url("../images/bottles.jpg");
     background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
     /* Chrome 10+, Saf5.1+ */
     background: -moz-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
@@ -66,20 +68,23 @@ p {
 }
 
 .navbar-brand {
-    width: 350px;
+    width: 200px;
     margin: 4px;
     color: #207c20;
+    font:110%;
+    color: green;
 }
 
 .navbar-header {
     height: 50px;
 }
-
-body {
-    padding: 50px;
-    //background-image: url("../images/bottles.jpg");
-    width:100%;
+.navbar-text {
+    font-size:100%;
+    color: white!important;
+    font-weight: bold;
 }
+
+
 
 #login-dp {
     min-width: 250px;
@@ -92,7 +97,7 @@ body {
 }
 
 #login-dp .help-block {
-    font-size: 12px
+    font-size: 85%;
 }
 
 #login-dp .bottom {
