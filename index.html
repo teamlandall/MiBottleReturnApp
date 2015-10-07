@@ -16,28 +16,26 @@
 </head>
 <body>
 
-<div class="row">
-	<div class="col-xs-6 col-md-6"><a href="/">
-		<h2>[ botl. ]</h2></a>
-	</div>
-	<div class="col-xs-2 col-md-2">
-		<a role="button" class="btn btn-default btn-md" href="#/hoarder">Hoarder</a>
-	</div>
-	<div class="col-xs-2 col-md-2">
-		<a role="button" class="btn btn-default btn-md" href="#/contractor">Contractor</a>
-	</div>
-	<div class="col-xs-2 col-md-2">
-		<a role="button" class="btn btn-default btn-md" href="#/sign-in">Sign In</a>
-	</div> 
-</div>
+<div class="container-fluid">
+  <div class="row">
+  	<div class="col-xs-6 col-md-6"><a href="/">
+  		<h2>[ botl. ]</h2></a>
+  	</div>
+  	<div class="col-xs-2 col-md-2">
+  		<a role="button" class="btn btn-default btn-md" href="#/hoarder">Hoarder</a>
+  	</div>
+  	<div class="col-xs-2 col-md-2">
+  		<a role="button" class="btn btn-default btn-md" href="#/contractor">Contractor</a>
+  	</div>
+  	<div class="col-xs-2 col-md-2">
+  		<a role="button" class="btn btn-default btn-md" href="#/sign-in">Sign In</a>
+  	</div> 
+  </div>
 
 	<div ng-app="bottleReturn">
-
-<!--Code for FaceBook Login-->
   
+      <ng-view> </ng-view>
 
-		<ng-view> </ng-view>
-		
 	</div> <!-- end of app -->
 </div>
 
