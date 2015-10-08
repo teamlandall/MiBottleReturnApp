@@ -1,12 +1,12 @@
 var app = angular.module('bottleReturn');
 
-app.controller('hoarderController', ['$scope', 'getNewInfo', 'getSignIn', function($scope, getNewInfo, getSignIn){
+app.controller('hoarderController', ['$scope', 'getNewInfo', 'getSignInHoarder', function($scope, getNewInfo, getSignInHoarder){
   
   $scope.submit = function(formData){
   	getNewInfo.fromInput(formData);
   }
 
-  $scope.userName = getSignIn.toDisplay();
+  $scope.userName = getSignInHoarder.toDisplay();
 
 }]);
 

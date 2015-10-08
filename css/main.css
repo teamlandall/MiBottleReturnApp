@@ -50,15 +50,15 @@ body {
     height: 100%;
     padding: 10px 20px 5px 20px;
     //background-image: url("../images/bottles.jpg");
-    background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
+    /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
     /* Chrome 10+, Saf5.1+ */
-    background: -moz-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
+    /*background: -moz-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
     /* FF3.6+ */
-    background: -ms-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
+    /*background: -ms-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
     /* IE10 */
-    background: -o-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
+    /*background: -o-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
     /* Opera 11.10+ */
-    background: linear-gradient(90deg, #5cb85c 10%, #086408 90%);
+    /*background: linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
     /* W3C */
     font-family: 'Raleway', sans-serif;
 }

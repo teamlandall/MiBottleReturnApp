@@ -1,0 +1,18 @@
+<div class="container-fluid">
+<h4> Sign Into Your Account </h4>
+<p> So you let a bunch of bottles pile up? We got you covered.</p>
+<form>
+  <div class="form-group">
+  <label for="exampleInputName1" id="form-input"> Full Name </label>
+	    <input ng-model="hName" type="text" class="form-control" id="form" placeholder="ex. John Doe">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+  <a ng-click="hSignIn(hName)" role="button" class="btn btn-default btn-md" href="#/hoarder">Hoarder</a>
+</form>
+
+</div>
