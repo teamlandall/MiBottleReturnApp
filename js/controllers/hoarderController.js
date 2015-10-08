@@ -6,7 +6,7 @@ app.controller('hoarderController', ['$scope', 'getNewInfo', 'getSignInHoarder',
   	getNewInfo.fromInput(formData);
   }
 
-  $scope.userName = getSignInHoarder.toDisplay();
+  $scope.hUserName = getSignInHoarder.toDisplay();
 
 }]);
 

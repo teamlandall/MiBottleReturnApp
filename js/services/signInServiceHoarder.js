@@ -1,13 +1,13 @@
 var app = angular.module('bottleReturn');
 
 app.factory('getSignInHoarder', function (){
-	var userName = '';
+	var hUserName = '';
 	return {
 		fromInput: function(name){
-			userName = name;
+			hUserName = name;
 		},
 		toDisplay: function(){
-			return userName;
+			return hUserName;
 		},
 	}
 });

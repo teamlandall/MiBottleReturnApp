@@ -31,6 +31,16 @@ app.config(function($routeProvider){
     controller: 'contractorController'
   });
 
+  $routeProvider.when('/resOption', {
+    templateUrl: 'partials/resOption.html',
+    controller: 'resOptionController'
+  });
+
+  $routeProvider.when('/contractorConfirm', {
+    templateUrl: 'partials/contractorConfirm.html',
+    controller: 'contractorConfirmController'
+  });
+
    $routeProvider.otherwise({
     templateUrl: 'partials/404.html',
     controller: '404controller'
@@ -46,15 +56,6 @@ app.controller('placeHolderController', function(){
 app.controller('hoarderConfirmController', function(){
 
 });
-
-// app.controller('mapController', function($scope, $timeout, mapboxService) {
-//     mapboxService.init({ accessToken: 'pk.eyJ1Ijoia2tpZW5pbmdlciIsImEiOiJjaWZlM2FpYWg2ZDl4czRtNzZhb3hmcG9nIn0._7XdzBHRCxYnyGhsJgzO2w' });
-//     $timeout(function() {
-//       var map = mapboxService.getMapInstances()[0];
-//       //mapboxService.fitMapToMarkers(map);
-//     }, 100);
-
-// });
 
 
 app.controller('404Controller', function(){
