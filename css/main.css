@@ -27,11 +27,13 @@ a:visited {
     text-decoration: none;
 }
 
-#map{
+.angular-mapbox-map {
     width: 900px;
     height: 300px;
     border: 2px solid black;
 }
+
+
  // end CSS by Landall
 
 .hinttext {
