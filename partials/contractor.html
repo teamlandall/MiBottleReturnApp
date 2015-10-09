@@ -1,55 +1,56 @@
 <div class="container-fluid">
 <!-- <div id="contract-container"> -->
-	<h4> {{ userName }} </h4>
-	
-	<div class="row">
-	<div class="col-xs-12" id="bottle-table">
-	  <h4> Bottles Ready for Pick Up</h4>
-	  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
-	  <table class="table-hover table" > 
-	      <tr>
-	        <!-- <th>Name</th> -->
-	        <th>Address</th>
-	        <th>Pick Up Date</th>
-	        <th>Pick Up Time</th>
-	        <th>Total Bottles</th>
-	      </tr>  
-      	<tr ng-repeat="data in databaseOfUsers | filter:searchList">
-	        <!-- <td> {{ data.name }} </td> -->
-	        <td> {{ data.address }} </td>
-	        <td> {{ data.date | date: 'MMMM dd, yyyy' }} </td>
-	        <td> {{ data.time | date: 'h:mm a'}} </td>
-	        <td> {{ data.qty }} </td>
-      	</tr>
-    </table>
-	</div>
-	</div>
+	<h4> Welcome back, {{ userName }} </h4>
 
 	<div class="row">
 	<div class="col-xs-12" ng-controller="mapController">
-		  <mapbox map-id="kkieninger.cife3agsc6cy9rylxl7ldcgjn"
-          lat="42.347"
-          lng="-83.062"
-          on-reposition="mapMovedCallback"
-          on-zoom="mapZoomedCallback"
-          zoom="13" scale-to-fit>
+		<mapbox map-id="kkieninger.cife3agsc6cy9rylxl7ldcgjn"
+        lat="42.347"
+        lng="-83.062"
+        on-reposition="mapMovedCallback"
+        on-zoom="mapZoomedCallback"
+        zoom="13" scale-to-fit>
     		<marker ng-repeat="data in databaseOfUsers | filter: filterTerm"
 	            lat="{{data.lat}}"
 	            lng="{{data.lng}}"
 	            color="teal"
 	            icon="waste-basket"
 	            size="large">
-      			<h1>{{data.name}}</h1>
-      			<p>{{data.address}}</p>
-      			<p>Bottles for pickup: {{data.qty}}</p>
-      			<button>Pickup</button>
+      			<h1 ng-model="data.name">{{data.name}}</h1>
+      			<p ng-model="data.address">{{data.address}}</p>
+      			<p ng-model="data.qty">Bottles for pickup: {{data.qty}}</p>
+      			<a ng-click="mapSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> See Details </a>
     		</marker>
   		</mapbox>
 
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-xs-12" id="bottle-table">
+	  <h4> Bottles Ready for Pick Up</h4>
+	  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
+	  <table class="table-hover table" > 
+	      <tr> <!-- Phase 2: Put table left of map. No headings. -->
+	        <th>Address</th>
+	        <th>Pick Up Date</th>
+	        <th>Pick Up Time</th>
+	        <th>Total Bottles</th>
+	        <th>Select?</th>
+	      </tr>  
+      	<tr ng-repeat="data in databaseOfUsers | filter:searchList">
+	        <td ng-model="data.address"> {{ data.address }} </td>
+	        <td ng-model="data.date"> {{ data.date | date: 'MMMM dd, yyyy' }} </td>
+	        <td ng-model="data.time"> {{ data.time | date: 'h:mm a'}} </td>
+	        <td ng-model="data.qty"> {{ data.qty }} </td>
+	        <td> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> ! </a></td>
+      	</tr>
+    </table>
+	</div>
+	</div>
 
-	</div>
-	</div>
+	
 
 </div>
-<!-- <script src="js/map.js"></script> -->
+
 

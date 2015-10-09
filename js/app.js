@@ -1,4 +1,4 @@
-var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap', 'angular-mapbox']);
+var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap', 'angular-mapbox', 'mapbox-forward-geo']);
 
 app.config(function($routeProvider){
 	$routeProvider.when('/', {
@@ -6,9 +6,14 @@ app.config(function($routeProvider){
     controller: 'placeHolderController'
   });
 
-  $routeProvider.when('/sign-in', {
-    templateUrl: 'partials/sign-in.html',
-    controller: 'signInController'
+  $routeProvider.when('/hoarderSign-in', {
+    templateUrl: 'partials/hoarderSign-in.html',
+    controller: 'HoarderSignInController'
+  }); 
+
+  $routeProvider.when('/contractorSign-in', {
+    templateUrl: 'partials/contractorSign-in.html',
+    controller: 'ContractorSignInController'
   });
 
   $routeProvider.when('/hoarder', {
@@ -24,6 +29,16 @@ app.config(function($routeProvider){
   $routeProvider.when('/contractor', {
     templateUrl: 'partials/contractor.html',
     controller: 'contractorController'
+  });
+
+  $routeProvider.when('/resOption', {
+    templateUrl: 'partials/resOption.html',
+    controller: 'resOptionController'
+  });
+
+  $routeProvider.when('/contractorConfirm', {
+    templateUrl: 'partials/contractorConfirm.html',
+    controller: 'contractorConfirmController'
   });
 
    $routeProvider.otherwise({
@@ -42,27 +57,7 @@ app.controller('hoarderConfirmController', function(){
 
 });
 
-app.controller('contractorController', ['$scope', 'getNewInfo', 'getSignIn', function($scope, getNewInfo, getSignIn){
-
-    $scope.userName = getSignIn.toDisplay();
-    
-    $scope.databaseOfUsers = getNewInfo.toDisplay();
-
-}]);
-
-app.controller('mapController', function($scope, $timeout, mapboxService) {
-    mapboxService.init({ accessToken: 'pk.eyJ1Ijoia2tpZW5pbmdlciIsImEiOiJjaWZlM2FpYWg2ZDl4czRtNzZhb3hmcG9nIn0._7XdzBHRCxYnyGhsJgzO2w' });
-    $timeout(function() {
-      var map = mapboxService.getMapInstances()[0];
-      //mapboxService.fitMapToMarkers(map);
-    }, 100);
-
-});
-
 
 app.controller('404Controller', function(){
 
 });
-
-
-
