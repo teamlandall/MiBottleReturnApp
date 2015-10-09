@@ -4,7 +4,7 @@ app.factory('getNewInfo', function (){
 
 	var databaseOfUsers = [
    	  { name: "Chris Conley", 
-   	  	address: "1247 Woodward Ave, Detroit, MI 48226", 
+   	  	address: "1247 Woodward Ave Detroit, Michigan 48226 United States", 
    	  	date: "October 19, 2015", 
    	  	time: "2:00 PM", 
    	  	lat: "42.333303",
@@ -12,7 +12,7 @@ app.factory('getNewInfo', function (){
    	  	qty: "89" 
    	  },
    	  { name: "David Soloway", 
-   	  	address: "118 W Lafayette Blvd, Detroit, MI 48226", 
+   	  	address: "118 W Lafayette Blvd Detroit, Michigan 48226 United States", 
    	  	date: "October 19, 2015", 
    	  	time: "3:30 PM",
    	  	lat: "42.331356",
@@ -20,7 +20,7 @@ app.factory('getNewInfo', function (){
    	  	qty: "138" 
    	  },
    	  { name: "Eben D'Amico", 
-   	  	address: "1250 Library St, Detroit, MI 48226", 
+   	  	address: "1250 Library St Detroit, Michigan 48226 United States", 
    	  	date: "October 21, 2015", 
    	  	time: "12:00 PM",
    	  	lat: "42.33457",
@@ -28,7 +28,7 @@ app.factory('getNewInfo', function (){
    	  	qty: "74" 
    	  },
    	  { name: "Arun Bali", 
-   	  	address: "2233 Park Ave, Detroit, MI 48201", 
+   	  	address: "2233 Park Ave Detroit, Michigan 48201 United States", 
    	  	date: "October 17, 2015", 
    	  	time: "11:00 PM", 
    	  	lat: "42.337927",
