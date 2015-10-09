@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>[ botl. ]</title>
+	<meta charset="utf-8">
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet">	
+	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
+	<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet" >
+</head>
+
+<body>
+<!--- This is the NAV BAR -------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Bottle Drive 2U</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Bottle Drive 2U</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">About Us</a></li>
+        <li><a href="#">Coverage area</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="charities we work with">How it works <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">As a "Driver"</a></li>
+            <li><a href="#">As a "Bottle Hoarder"</a></li>
+            <li><a href="#">Bottle Refunds & Recycling</a></li>
+            <li><a href="#">Brands we take</a></li>
+            <li class="divider"></li>
+            <li><a href="#">How you get paid</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Who benefits?</a></li>
+          </ul>
+        </li>
+      </ul><!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><p class="navbar-text">Already have an account?</p></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+      <ul id="login-dp" class="dropdown-menu">
+        <li>
+           <div class="row">
+              <div class="col-md-12">
+                Login via
+                <div class="social-buttons">
+                  <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a href="#" class="btn btn-go"><i class="fa fa-google"></i> Google</a>
+                </div>
+                                or
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                    </div>
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputPassword2">Password</label>
+                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                    </div>
+                    <div class="form-group">
+                       <button type="submit" class="btn btn-signin btn-block">Sign in</button>
+                    </div>
+                    <div class="checkbox">
+                       <label>
+                       <input type="checkbox"> keep me logged-in
+                       </label>
+                    </div>
+                 </form>
+              </div>
+              <div class="bottom text-center">
+                New here ? <a href="#"><b>Join Us</b></a>
+              </div>
+           </div>
+        </li>
+      </ul>
+        </li>
+      </ul> -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!------------------------------  END NAV BAR ------------------------------------------------------------------------>
+<div class="row">
+	<div class="col-xs-1"> </div> 
+	<div class="col-xs-8"><a href="/">
+		<h2>Thank You</h2></a>
+	</div>
+ <!--             	<div class="col-xs-1">
+              		<a role="button" class="btn btn-default" href="#/contractor">Contractor</a>
+              	</div>
+              	<div class="col-xs-1">
+              		<a role="button" class="btn btn-default" href="#/hoarder">Hoarder</a>
+              	</div>
+              	<div class="col-xs-1"> </div--> 
+</div>
+
+<div class="container">
+	<div ng-app="bottleReturn">
+
+		<ng-view> </ng-view>
+		
+	</div> <!-- end of app -->
+</div>
+
+
+
+
+	
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/service.js"></script>
+<script src="js/hoarderController.js"></script>
+<script src="js/addressService.js"></script>
+
+</body>
+	
+
+</body>
+</html>
