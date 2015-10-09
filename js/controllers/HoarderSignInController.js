@@ -4,5 +4,7 @@ app.controller('HoarderSignInController', ['$scope', 'getSignInHoarder', functio
 	$scope.hSignIn = function(input){
   	getSignInHoarder.fromInput(input);
   	}
+
+  	
   	
 }]);

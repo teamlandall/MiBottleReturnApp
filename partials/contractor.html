@@ -18,8 +18,8 @@
 	            size="large">
       			<h1 ng-model="data.name">{{data.name}}</h1>
       			<p ng-model="data.address">{{data.address}}</p>
-      			<p ng-model="data.qty">Bottles for pickup: {{data.qty}}</p>
-      			<a ng-click="mapSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> See Details </a>
+      			<p ng-model="data.qty">Est. # bottles for pickup: {{data.qty}}</p>
+      			<a  ng-click="mapSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> See Details </a>
     		</marker>
   		</mapbox>
 
@@ -43,7 +43,7 @@
 	        <td ng-model="data.date"> {{ data.date | date: 'MMMM dd, yyyy' }} </td>
 	        <td ng-model="data.time"> {{ data.time | date: 'h:mm a'}} </td>
 	        <td ng-model="data.qty"> {{ data.qty }} </td>
-	        <td> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> ! </a></td>
+	        <td> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> Select </a></td>
       	</tr>
     </table>
 	</div>
