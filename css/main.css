@@ -31,9 +31,14 @@ a:link {
     color: black;
     text-decoration: none;
 }
+a:hover {
+    color: black;
+    text-decoration: none;
+}
 
 a:visited {
     text-decoration: none;
+    color: black;
 }
 
 .angular-mapbox-map {
@@ -90,14 +95,13 @@ a:visited {
 body {
     width: 100%;
     height: 100%;
-    padding: 10px 20px 5px 20px;
-<<<<<<< HEAD
+    padding: 10px 0px 5px 0px;
+
     z-index: 0;
-    background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
-=======
-    //background-image: url("../images/bottles.jpg");
+    /* background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
+
+    background-image: url("../images/bottles.jpg"); */
     /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
->>>>>>> abf9fe3dc76a84d8f1cf31092de645ec0d37f2c4
     /* Chrome 10+, Saf5.1+ */
     /*background: -moz-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
     /* FF3.6+ */
@@ -276,5 +280,22 @@ body {
     clear: both;
 }
 
-#wrapper { width: 100%; margin: -10px -50px; padding: 0px; height:500px; background-color: yellow;z-index: 0;}
+#wrapper { 
+    width: 100%; 
+    margin: 0px 0px 0px -15px; 
+    padding: 0px; 
+    height:500px; 
+    background-color: blue;
+    z-index: 100;}
 
+.elbow-room {
+    margin-left:100px!important;
+}
+
+.onTop{
+    z-index: 500;
+    width:90%;
+    border:2px solid green;
+    border-radius: 25px;
+    background-color: rgba(0,0,0, 0.5);
+}
