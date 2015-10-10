@@ -1,5 +1,6 @@
 //css from main by landall
 
+
 #map-size{
     width: 100%;
     height: 300px;
@@ -96,13 +97,19 @@ a:visited {
 body {
     width: 100%;
     height: 100%;
-    padding: 10px 0px 5px 0px;
 
-    z-index: 0;
+    padding: 10px 20px 5px 20px;
+    
+    /*z-index: 0;*/
+    /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
+
+    /*background-image: url("../images/bottles.jpg");*/
+    /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*
     /* background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
 
     background-image: url("../images/bottles.jpg"); */
     /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
+
     /* Chrome 10+, Saf5.1+ */
     /*background: -moz-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
     /* FF3.6+ */
