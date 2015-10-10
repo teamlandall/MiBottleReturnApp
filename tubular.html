@@ -4,8 +4,6 @@
 	<title>[ botl. ]</title>
 	<meta charset="utf-8">
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-	
-	<link href="styles/main.css" rel="stylesheet">	
 	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
   	<!-- <script src="https://connect.facebook.net/en_US/all.js"></script>
   	<script src="https://www.facebook.com/dialog/oauth?"></script> -->
@@ -47,17 +45,13 @@
 
 
   </div>
-	
+	<div id="wrapper">
 	      <div ng-app="bottleReturn">
 	      <ng-view> 
-          <div id="wrapper">
-            </div>  
 	      </ng-view> 
-	      
-		  
-
 		 <!-- end of app -->
 	</div>
+  </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
@@ -68,11 +62,11 @@
 <script src="dist/angular-mapbox.js"></script> 
 <script src="js/app.js"></script>
 <script src="js/service.js"></script>
-<script src="js/hoarderController.js"></script>
-<script src="js/addressService.js"></script>
-<script src="js/signInController.js"></script>
-<script src="js/signInService.js"></script>
-<script src="js/mapbox.service.js"></script>
-<script src="js/mapController.js"></script>
+<script src="js/controllers/hoarderController.js"></script>
+<script src="js/services/addressService.js"></script>
+<script src="js/controllers/signInController.js"></script>
+<script src="js/services/signInService.js"></script>
+<script src="js/mapBox/mapbox.service.js"></script>
+<script src="js/controllers/mapController.js"></script>
 </body>
 </html>
