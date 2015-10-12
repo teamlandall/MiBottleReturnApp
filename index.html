@@ -4,84 +4,68 @@
 	<title>[ botl. ]</title>
 	<meta charset="utf-8">
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" >
-
-    <link rel='stylesheet' type='text/css' href="https://fonts.googleapis.com/css?family=Rancho">
-
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/tubularindex.js"></script>
+  <link href="css/main.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' href="https://fonts.googleapis.com/css?family=Rancho">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
+   <script type="text/javascript" charset="utf-8" src="js/tubularindex.js"></script> -->
 </head>
 <body>
 
 <div class="container-fluid">
-  <div class="row">
-  	<div class="col-xs-6 col-md-6"><a href="/">
-  		<h2>[ botl. ]</h2></a>
-  	</div>
-
-  	<div class="col-xs-2 col-md-2">
-  		<a role="button" class="btn btn-default btn-md" href="#/hoarder">Hoarder Nav</a>
-  	</div>
-  	<div class="col-xs-2 col-md-2">
-  		<a role="button" class="btn btn-default btn-md" href="#/contractor">Contractor Nav</a>
-  	</div>
-    <div class="col-xs-2 col-md-2">
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="/">[ botl. ]</a></li>
+          <li><a href="/">How It Works</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#/hoarderSign-in">Hoarder Log In</a></li>
+          <li><a href="#/contractorSign-in">Contractor Log In</a></li>
+        </ul>
+      </div>
     </div>
-
-  </div>
-
-  <div class="row">
-  <div class="col-xs-3 col-md-3"> </div>
-    <div class="col-xs-3 col-md-3">
-        <a role="button" class="btn btn-default btn-md" href="#/hoarderSign-in">Hoarder Sign In</a>
-      </div>
-      <div class="col-xs-3 col-md-3">
-        <a role="button" class="btn btn-default btn-md" href="#/contractorSign-in">Contractor Sign In</a>
-      </div>
-      <div class="col-xs-3 col-md-3"></div>
-  </div>
 
 
 	<div ng-app="bottleReturn">
   
-      <ng-view> </ng-view>
+      <ng-view></ng-view>
 
 	</div> <!-- end of app -->
+  <footer>
+    <p>botl. inc. | 2015 &copy;</p>
+  </footer>
 </div>
 
 
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
-<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
-<script src="lib/leaflet.markercluster.js"></script>
-<script src="dist/angular-mapbox.js"></script>
-<script src="js/app.js"></script>
-<script src="js/controllers/hoarderController.js"></script>
-<script src="js/controllers/contractorController.js"></script>
-<script src="js/services/addressService.js"></script>
-<script src="js/controllers/HoarderSignInController.js"></script>
-<script src="js/controllers/ContractorSignInController.js"></script>
-<script src="js/controllers/resOptionController.js"></script>
-<script src="js/services/resOptionService.js"></script>
-<script src="js/controllers/contractorConfirmController.js"></script>
-<script src="js/services/contractorConfirmService.js"></script>
-<script src="js/services/resOptionService.js"></script>
-<script src="js/services/signInServiceHoarder.js"></script>
-<script src="js/services/signInServiceContractor.js"></script>
-<script src="js/mapBox/mapbox.service.js"></script>
-<script src="js/controllers/mapController.js"></script>
-<script type="text/javascript" src="js/directives/angular-mapbox-forward-geolocation.js"></script>
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
+  <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+  <script src="lib/leaflet.markercluster.js"></script>
+  <script src="dist/angular-mapbox.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers/hoarderController.js"></script>
+  <script src="js/controllers/contractorController.js"></script>
+  <script src="js/services/addressService.js"></script>
+  <script src="js/controllers/HoarderSignInController.js"></script>
+  <script src="js/controllers/ContractorSignInController.js"></script>
+  <script src="js/controllers/resOptionController.js"></script>
+  <script src="js/services/resOptionService.js"></script>
+  <script src="js/controllers/contractorConfirmController.js"></script>
+  <script src="js/services/contractorConfirmService.js"></script>
+  <script src="js/services/resOptionService.js"></script>
+  <script src="js/services/signInServiceHoarder.js"></script>
+  <script src="js/services/signInServiceContractor.js"></script>
+  <script src="js/mapBox/mapbox.service.js"></script>
+  <script src="js/controllers/mapController.js"></script>
+  <script type="text/javascript" src="js/directives/angular-mapbox-forward-geolocation.js"></script>
 
 </body>
 </html>
