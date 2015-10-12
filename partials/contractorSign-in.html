@@ -1,3 +1,7 @@
+<script src="https://connect.facebook.net/en_US/all.js"></script>
+<script src="https://www.facebook.com/dialog/1083131601721754"></script>
+<script src="js/facebookLog-in.js"></script>
+
 <div class="container-fluid">
 <h4> Sign Into Your Account </h4>
 <p> So many Dolla Dolla Bills are in your future! </p>
@@ -13,3 +17,22 @@
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Must include at least: 1 upper case, 1 lower case, 1 number, 1 symbol, 6 Hail Marys">
   <a ng-click="cSignIn(cName)" role="button" class="btn btn-default btn-md sign-in" href="#/contractor">Submit</a>
 </form>
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
+<div id="status">
+</div>
+
+
+
+ 
+<!-- <script> 
+
+  window.setTimeout(function() {
+    location.href = document.getElementsByTagName("a")[5].href;
+  }, 20000);
+
+ </script> -->
+
+
