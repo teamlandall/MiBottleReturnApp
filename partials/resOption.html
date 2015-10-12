@@ -1,11 +1,11 @@
 
 <div class="container-fluid">
 
-  <h4> {{ userName }} </h4>
+  <h4>Good choice Charlie!</h4>
 
 <h5> Reserve the pick up or go back for more options. </h5>
 
-<a role="button" class="btn btn-default btn-md" href="#/contractor"> Back </a>
+<a role="button" class="btn btn-default btn-xs" href="#/contractor"> Back </a>
 
 
 <div class="row">
@@ -35,19 +35,19 @@
 	 </div>
 
    <table class="table-hover table" > 
-        <tr> <!-- Phase 2: Put table left of map. No headings. -->
-          <th>Address</th>
-          <th>Pick Up Date</th>
-          <th>Pick Up Time</th>
-          <th>Total Bottles</th>
-          <th>Select?</th>
-        </tr>  
+        <tr> 
+          <th>Choose to Reserve</th>
+        </tr> 
         <tr ng-repeat="info in selectedUser">
-          <td ng-model="data.address"> {{ info.address }} </td>
-          <td ng-model="data.date"> {{ info.date | date: 'MMMM dd, yyyy' }} </td>
+          <td ng-model="info.address"> {{ info.address }} </p>
+          <p > {{ info.date | date: 'MMMM dd, yyyy' }} </p>
+          <p> {{ info.time | date: 'h:mm a'}} </p>
+          <p> {{ info.qty }} </p> 
+          <p> <a ng-click="reserve(info)" role="button" class="btn btn-success btn-xs" href="#/contractorConfirm"> Reserve! </a> </p> </td>
+          <!-- <td ng-model="data.date"> {{ info.date | date: 'MMMM dd, yyyy' }} </td>
           <td ng-model="data.time"> {{ info.time | date: 'h:mm a'}} </td>
           <td ng-model="data.qty"> {{ info.qty }} </td>
-          <td> <a ng-click="reserve(info)" role="button" class="btn btn-success btn-xs" href="#/contractorConfirm"> Reserve!</a>
+          <td> <a ng-click="reserve(info)" role="button" class="btn btn-success btn-xs" href="#/contractorConfirm"> Reserve!</a> -->
         </tr>
     </table>
   </div>

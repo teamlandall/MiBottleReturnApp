@@ -6,6 +6,7 @@
 
 #hoarder-img{
   width: 40%;
+  max-width: 150px;
   height: auto;
   margin: 0 auto;
   border-radius: 50%;
@@ -20,7 +21,12 @@
 
 .rating-stars{
   width: 40%;
+  max-width: 150px;
   height: auto;
+}
+
+#picture-star p{
+  text-align: center; 
 }
 
 /* CONTRACTOR VIEWS */

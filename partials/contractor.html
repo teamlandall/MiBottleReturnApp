@@ -31,19 +31,15 @@
 	  <h4> Bottles Ready for Pick Up</h4>
 	  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
 	  <table class="table-hover table" > 
-	      <tr> <!-- Phase 2: Put table left of map. No headings. -->
-	        <th>Address</th>
-	        <th>Pick Up Date</th>
-	        <th>Pick Up Time</th>
-	        <th>Total Bottles</th>
-	        <th>Select?</th>
+	      <tr> 
+	        <th>Availabe Reservations</th>
 	      </tr>  
       	<tr ng-repeat="data in databaseOfUsers | filter:searchList">
-	        <td ng-model="data.address"> {{ data.address }} </td>
-	        <td ng-model="data.date"> {{ data.date | date: 'MMMM dd, yyyy' }} </td>
-	        <td ng-model="data.time"> {{ data.time | date: 'h:mm a'}} </td>
-	        <td ng-model="data.qty"> {{ data.qty }} </td>
-	        <td> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> Select </a></td>
+	        <td ng-model="data.address"> {{ data.address }} </p>
+	        <p> {{ data.date | date: 'MMMM dd, yyyy' }} </p>
+	        <p> {{ data.time | date: 'h:mm a'}} </p>
+	        <p> {{ data.qty }} </p>
+	        <p> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> Select </td>
       	</tr>
     </table>
 	</div>
