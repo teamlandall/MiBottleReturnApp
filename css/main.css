@@ -4,6 +4,24 @@
 
 /* IMAGES */
 
+#hoarder-img{
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#contractor-img{
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.rating-stars{
+  width: 40%;
+  height: auto;
+}
 
 /* CONTRACTOR VIEWS */
 /* FORMS */

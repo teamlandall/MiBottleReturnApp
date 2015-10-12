@@ -1,12 +1,13 @@
+<div class="container-fluid">
 <h1> {{ userName }} </h1>
 
 <h3> Thanks, you are confirmed! </h3>
 <p>  </p>
 
-<div ng-repeat="data in reservedHoarder">
+<!-- <div ng-repeat="data in reservedHoarder"> -->
 
-<img src="images/landall.jpg"><p>
-<img src="images/ratingStars.jpeg"><p>
+<img id="hoarder-img" src="images/landall.jpg"><p>
+<img class="rating-stars" src="images/ratingStars.jpeg"><p>
 <p> {{ hUserName }} is expecting you at </p>
 <p> {{data.time | date: 'h:mm a'}} on {{ data.date | date: 'MMMM dd, yyyy'}}.</p>
 
@@ -22,5 +23,5 @@
 
 <p> Don't be late! </p>
 <a href="#/pickUpConfirmed">  >> </a>
->>>>>>> origin/master
+
 </div>

@@ -96,8 +96,8 @@
         'Thanks for logging in, ' + response.name + '!';
 
       window.setTimeout(function() {
-        location.href = document.getElementsByTagName("a")[5].href;
-      }, 2000);
+        location.href = document.getElementsByTagName("a")[4].href;
+      }, 00);
 
 
     });
