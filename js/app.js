@@ -2,8 +2,8 @@ var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap', 'angular-ma
 
 app.config(function($routeProvider){
 	$routeProvider.when('/', {
-    templateUrl: 'partials/placeHolder.html',
-    controller: 'placeHolderController'
+    templateUrl: 'partials/landingView.html',
+    controller: 'landingViewController'
   });
 
   $routeProvider.when('/hoarderSign-in', {
@@ -48,7 +48,7 @@ app.config(function($routeProvider){
 
 });
 
-app.controller('placeHolderController', function(){
+app.controller('landingViewController', function(){
 
 
 });
