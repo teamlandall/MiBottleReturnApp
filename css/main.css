@@ -202,3 +202,42 @@ p {
         border-top: 0 none;
     }
 }
+.about{
+    text-align: center;
+}
+
+.howHoarder{
+    text-align: center;
+
+}
+
+.howContractor{
+    text-align: center;
+
+}
+.items{
+    text-align: center;
+}
+
+.faqs{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Rancho', cursive;
+}
+
+h2{font-family: inherit;
+    text-align: center;
+}
+
+h3{font-family: inherit;
+    text-align: center;
+}
+
+
+p{
+    color: black;
+    text-align: center;
+    font-size:30px;
+}
