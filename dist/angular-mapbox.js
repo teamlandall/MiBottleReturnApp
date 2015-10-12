@@ -311,22 +311,22 @@
           scope.map.scrollWheelZoom.disable();
         }
 
-        if (attrs.autoSize === undefined ) {
-            var mapWidth = attrs.width || 500;
-            var mapHeight = attrs.height || 500;
+        // if (attrs.autoSize === undefined ) {
+        //     var mapWidth = attrs.width || 500;
+        //     var mapHeight = attrs.height || 500;
 
-            if ( isNaN(mapWidth) ) {
-              element.css('width', mapWidth);
-            } else {
-              element.css('width', mapWidth + 'px');
-            }
+        //     if ( isNaN(mapWidth) ) {
+        //       element.css('width', mapWidth);
+        //     } else {
+        //       element.css('width', mapWidth + 'px');
+        //     }
 
-            if ( isNaN(mapHeight) ) {
-              element.css('height', mapHeight);
-            } else {
-              element.css('height', mapHeight + 'px');
-            }
-        }
+        //     if ( isNaN(mapHeight) ) {
+        //       element.css('height', mapHeight);
+        //     } else {
+        //       element.css('height', mapHeight + 'px');
+        //     }
+        // }
 
         scope.zoom = attrs.zoom || 12;
         if(attrs.lat && attrs.lng) {
