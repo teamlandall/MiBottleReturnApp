@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>[ botl. ]</title>
+	<meta charset="utf-8">
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet">	
+	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
+	<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet" >
+</head>
+
+<body>
+<!-- Define controller for body. In this example we use only one controller for the scope of entire body. --><!-- Place a span that is going to act as a container for button rendering through script code. -->
+        <span id="googleSignIn">
+            <span id="signInButton">
+            </span>
+        </span>
+ 
+        <!-- Don't forget to place the script that does the asynchronous loading of Google+ JavaScript API.
+             Because it is loaded asynchronously, it might take some time to load. 
+             Place some loading notification, so user won't get confused. 
+             You can use ng-show and ng-hide to show or hide your notification and accomplish best user experience. --><script>// <![CDATA[
+            (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/client:plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+ 
+// ]]></script><!-- Second script needed for accessing Google API (gapi.*) . It's usage will be described in controller. --><script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+<script>
+function SignInController($scope) {
+    // This flag we use to show or hide the button in our HTML.
+    $scope.signedIn = false;
+ 
+    // Here we do the authentication processing and error handling.
+    // Note that authResult is a JSON object.
+    $scope.processAuth = function(authResult) {
+        // Do a check if authentication has been successful.
+        if(authResult['access_token']) {
+            // Successful sign in.
+            $scope.signedIn = true;
+ 
+            //     ...
+            // Do some work [1].
+            //     ...
+        } else if(authResult['error']) {
+            // Error while signing in.
+            $scope.signedIn = false;
+ 
+            // Report error.
+        }
+    };
+ 
+    // When callback is received, we need to process authentication.
+    $scope.signInCallback = function(authResult) {
+        $scope.$apply(function() {
+            $scope.processAuth(authResult);
+        });
+    };
+ 
+    // Render the sign in button.
+    $scope.renderSignInButton = function() {
+        gapi.signin.render('signInButton',
+            {
+                'callback': $scope.signInCallback, // Function handling the callback.
+                'clientid': '[CLIENT_ID from Google developer console]', // CLIENT_ID from developer console which has been explained earlier.
+                'requestvisibleactions': 'http://schemas.google.com/AddActivity', // Visible actions, scope and cookie policy wont be described now,
+                                                                                  // as their explanation is available in Google+ API Documentation.
+                'scope': 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email',
+                'cookiepolicy': 'single_host_origin'
+            }
+        );
+    }
+ 
+    // Start function in this example only renders the sign in button.
+    $scope.start = function() {
+        $scope.renderSignInButton();
+    };
+ 
+    // Call start function on load.
+    $scope.start();
+}
+</script>	
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/service.js"></script>
+<script src="js/hoarderController.js"></script>
+<script src="js/addressService.js"></script>
+
+</body>
+</html>

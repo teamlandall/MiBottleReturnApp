@@ -3,24 +3,7 @@
 
   <h4> {{ userName }} </h4>
 
-view for contractor to confirm a bottle pick up reservation.
-<!-- Map from contractor.html -->
-<table class="table-hover table" > 
-        <tr> <!-- Phase 2: Put table left of map. No headings. -->
-          <th>Address</th>
-          <th>Pick Up Date</th>
-          <th>Pick Up Time</th>
-          <th>Total Bottles</th>
-          <th>Select?</th>
-        </tr>  
-        <tr ng-repeat="info in selectedUser">
-          <td ng-model="data.address"> {{ info.address }} </td>
-          <td ng-model="data.date"> {{ info.date | date: 'MMMM dd, yyyy' }} </td>
-          <td ng-model="data.time"> {{ info.time | date: 'h:mm a'}} </td>
-          <td ng-model="data.qty"> {{ info.qty }} </td>
-          <td> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> ! </a></td>
-        </tr>
-    </table>
+<h5> Reserve the pick up or go back for more options. </h5>
 
 <a role="button" class="btn btn-default btn-md" href="#/contractor"> Back </a>
 
@@ -41,12 +24,30 @@ view for contractor to confirm a bottle pick up reservation.
 	            size="large">
       			<h1 ng-model="info">{{info.name}}</h1>
       			<p ng-model="info">{{info.address}}</p>
-      			<p ng-model="info">Bottles for pickup: {{info.qty}}</p>
-      			<a ng-click="reserve(info)" role="button" class="btn btn-danger btn-md" href="#/contractorConfirm"> Reserve it! </a>
+      			<p ng-model="info">Est. # bottles for pickup: {{info.qty}}</p>
+      			<a ng-click="reserve(info)" role="button" class="btn btn-success btn-md" href="#/contractorConfirm"> Reserve! </a>
+            <a role="button" class="btn btn-warning btn-md" href="#/contractor"> Pass on it. </a>
     		</marker>
   		</mapbox>
 
 
 	   </div>
 	 </div>
+
+   <table class="table-hover table" > 
+        <tr> <!-- Phase 2: Put table left of map. No headings. -->
+          <th>Address</th>
+          <th>Pick Up Date</th>
+          <th>Pick Up Time</th>
+          <th>Total Bottles</th>
+          <th>Select?</th>
+        </tr>  
+        <tr ng-repeat="info in selectedUser">
+          <td ng-model="data.address"> {{ info.address }} </td>
+          <td ng-model="data.date"> {{ info.date | date: 'MMMM dd, yyyy' }} </td>
+          <td ng-model="data.time"> {{ info.time | date: 'h:mm a'}} </td>
+          <td ng-model="data.qty"> {{ info.qty }} </td>
+          <td> <a ng-click="reserve(info)" role="button" class="btn btn-success btn-xs" href="#/contractorConfirm"> Reserve!</a>
+        </tr>
+    </table>
   </div>

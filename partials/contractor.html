@@ -4,12 +4,12 @@
 
 	<div class="row">
 	<div class="col-xs-12" ng-controller="mapController">
-		  <mapbox map-id="kkieninger.cife3agsc6cy9rylxl7ldcgjn"
-          lat="42.347"
-          lng="-83.062"
-          on-reposition="mapMovedCallback"
-          on-zoom="mapZoomedCallback"
-          zoom="13" scale-to-fit>
+		<mapbox map-id="kkieninger.cife3agsc6cy9rylxl7ldcgjn"
+        lat="42.347"
+        lng="-83.062"
+        on-reposition="mapMovedCallback"
+        on-zoom="mapZoomedCallback"
+        zoom="13" scale-to-fit>
     		<marker ng-repeat="data in databaseOfUsers | filter: filterTerm"
 	            lat="{{data.lat}}"
 	            lng="{{data.lng}}"
@@ -18,11 +18,10 @@
 	            size="large">
       			<h1 ng-model="data.name">{{data.name}}</h1>
       			<p ng-model="data.address">{{data.address}}</p>
-      			<p ng-model="data.qty">Bottles for pickup: {{data.qty}}</p>
-      			<a ng-click="mapSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> See Details </a>
+      			<p ng-model="data.qty">Est. # bottles for pickup: {{data.qty}}</p>
+      			<a  ng-click="mapSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> See Details </a>
     		</marker>
   		</mapbox>
-
 
 	</div>
 	</div>
@@ -44,7 +43,7 @@
 	        <td ng-model="data.date"> {{ data.date | date: 'MMMM dd, yyyy' }} </td>
 	        <td ng-model="data.time"> {{ data.time | date: 'h:mm a'}} </td>
 	        <td ng-model="data.qty"> {{ data.qty }} </td>
-	        <td> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> ! </a></td>
+	        <td> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> Select </a></td>
       	</tr>
     </table>
 	</div>

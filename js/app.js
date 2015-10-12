@@ -1,4 +1,4 @@
-var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap', 'angular-mapbox']);
+var app = angular.module('bottleReturn', ['ngRoute', 'ui.bootstrap', 'angular-mapbox', 'mapbox-forward-geo']);
 
 app.config(function($routeProvider){
 	$routeProvider.when('/', {
@@ -61,6 +61,3 @@ app.controller('hoarderConfirmController', function(){
 app.controller('404Controller', function(){
 
 });
-
-
-

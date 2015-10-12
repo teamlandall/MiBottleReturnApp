@@ -5,21 +5,28 @@
 	    <!-- <label for="exampleInputName1" id="form-input"> Full Name </label>
 	    <input ng-model="data.name" type="text" class="form-control" id="form" placeholder="ex. John Doe"> -->
 
-	    <label for="exampleInputName1" id="form-input"> Address </label>
-	    <input ng-model="data.address" type="text" class="form-control" id="form" placeholder="ex. 1932 E Franklin Street, Detroit, MI 48207">
-	    <label for="exampleInputName1" id="form-input"> Coordinates </label>
-	    <input ng-model="data.lat" type="text" class="form-control" id="form" placeholder="42">
-	    <input ng-model="data.lng" type="text" class="form-control" id="form" placeholder="-83">
-	    <label for="exampleInputName1" id="form-input"> Estimated # of Bottles </label>
-	    <input ng-model="data.qty" type="text" class="form-control" id="form" placeholder="ex. 36">
+	    <label for="exampleInputName1" id="form-input">  </label>
+		<mapbox-forward-geocoding query-results="results" ng-model="data.address" api-token="pk.eyJ1Ijoia2tpZW5pbmdlciIsImEiOiJjaWZlM2FpYWg2ZDl4czRtNzZhb3hmcG9nIn0._7XdzBHRCxYnyGhsJgzO2w"></mapbox-forward-geocoding>
+	    <label for="exampleInputName1" id="form-input">  </label>
+	    <!-- <input ng-model="data.qty" type="text" class="form-control" id="form" placeholder="Estimated total number of bottles. ex., 36 or 150 or 10,000"> -->
+	    <select ng-model="data.qty" class="form-control">
+		  <option value="50">0-50</option>
+		  <option value="100">51-100</option>
+		  <option value="150">101-150</option>
+		  <option value="200">151-200</option>
+		</select>
 
 <div class="row" id="date-time-row">
 
+	<div class="col-md-12"> <p> Bottle pick up is gauranteed within a 1 hour window of your selected reservation time. </p> 
+	</div>
+</div>
+<div class="row" id="date-time-row">
 	<div ng-controller="DatepickerCtrl">
 	
         <div class="col-md-6">
             <p class="input-group">
-              <input id="date-pick" type="text" class="form-control" datepicker-popup="{{format}}" ng-model="data.date" is-open="status.opened" min-date="minDate" max-date="maxDate" datepicker-options="dateOptions" ng-required="true" show-weeks="false" close-text="Close" />
+              <input id="date-pick" type="text" placeholder="Select Preferred Pickup Date & Time" class="form-control" datepicker-popup="{{format}}" ng-model="data.date" is-open="status.opened" min-date="minDate" max-date="maxDate" datepicker-options="dateOptions" ng-required="true" show-weeks="false" close-text="Close" />
               <span class="input-group-btn">
                 <button id="cal-glyph" type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
               </span>
@@ -33,6 +40,7 @@
 		</div>
  	</div>
 
+
  		<a id="submit-btn" ng-click="submit(data)" role="button" value="add" class="btn btn-default" href="#/hoarderConfirm">Submit</a>
 
 	</div>
@@ -42,5 +50,4 @@
  </div>
 
 
-<!-- ng-change="changed()" -->
 
