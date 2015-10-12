@@ -1,0 +1,86 @@
+/*// fonts
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+//*/
+.jumbotron .container .learn-more-donate a {
+  color: #113B08!important;
+  font-size: 28px;
+}
+.nav a {
+  color: #113B08;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+ background-image:url('../images/glassbottles.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #267A15;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #113B08;
+  background-color: #ccc ;
+  border:1px solid #ccc;
+  border-radius:5px;
+  text-align:right;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #000;
+}
+
+.neighborhood-guides {
+    background-color:#efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+
+.neighborhood-guides h2 { 
+    color: #393c3d;
+    font-size:24px;
+    }
+.neighborhood-guides p {
+    font-size:15px;
+    margin-bottom:13px;   
+    }
