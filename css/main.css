@@ -255,15 +255,46 @@ nav a:hover {
 .footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
-    background-color: black;
+    background-color: #e6a36d;
     text-align: center;
     height: 200px;
     width: 100%;
     margin-top: 40px;
-    padding: 10px;
+    padding:5px 10px 5px 10px;
 }
-
-
+.footer .copyright-notice {
+    color: #2b2622;
+    font-size: 100%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 45px;
+    position: relative; 
+    z-index: 550;
+}
+.footer li{
+    font-family:'Arial', sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    list-style: none!important;
+}
+.footer h4{
+    color: #2b2622;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.footer .logo-brand-bottom {
+    background-image: url('../images/botl-logo-browns-xs.png');
+    background-repeat: no-repeat; 
+    background-position: right bottom;
+    padding-right:5px;
+    padding-top: 105px;
+    position:relative;
+   // z-index: 500!important;
+}
 /* MEDIA QUERIES */
 
 @media(max-width:768px) {
