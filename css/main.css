@@ -4,6 +4,7 @@
 body {
     width: 100%;
     height: 100%;
+    background-color: #efefef;
 }
 
 /*#wrapper {
@@ -161,7 +162,7 @@ nav a:hover {
 }
 
 .about, .charity, .faqs, .how-it-works, .intro {
-    padding: 0 25px;
+    padding: 0 40px;
 }
 
 
