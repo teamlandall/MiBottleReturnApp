@@ -4,7 +4,6 @@
 body {
     width: 100%;
     height: 100%;
-/*    padding: 10px 20px 5px 20px;*/
 }
 
 #wrapper {
@@ -46,6 +45,7 @@ body {
 .about-image {
     width: 80%;
     margin: 0 auto 20px auto;
+    border-radius: 5px;
     /*border: 1px solid black;*/
 }
 
@@ -55,6 +55,7 @@ a:link {
     color: black;
     text-decoration: none;
 }
+
 a:hover {
     color: black;
     text-decoration: none;
@@ -66,12 +67,53 @@ a:visited {
 }
 
 
+/* NAVIGATION */
+
+nav a {
+  color: #113B08;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.logo {
+    height: 35px;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.pull-left {
+    text-align: left;
+}
+
+.pull-right {
+    text-align: right;
+    margin-top: 9px;
+}
+
+.pull-right li {
+    padding-left: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* INDEX/LANDING PAGE */
 /* HEADER */
 
 .jumbotron {
-    background-image: url('../images/glassbottles.jpg');
-/*    background-image: url('../images/beer-bottles1.jpg');
-    background-image: url('../images/beer-bottles4.jpg');*/
+    background-image: url('../images/beer-bottles-60.jpg');
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -88,6 +130,7 @@ a:visited {
   font-size: 4em;  
   font-weight: bold;
   text-align: center;
+  color: white;
 }
 
 .jumbotron p {
@@ -98,39 +141,6 @@ a:visited {
   border-radius:5px;
   text-align:right;
 }
-
-/* NAVIGATION */
-
-nav a {
-  color: #113B08;
-  font-size: 0.9em;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-}
-
-nav li {
-  display: inline-block;
-}
-
-.pull-left {
-    text-align: left;
-}
-
-.pull-right {
-    text-align: right;
-}
-
-.pull-right li {
-    padding-left: 10px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* INDEX/LANDING PAGE */
-
 
 .hoarder-title, .contractor-title {
     text-align: center;
@@ -221,7 +231,24 @@ nav a:hover {
     margin-left: 5px;
 }
 
+#h-fb-btn {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
 /* CONTRACTOR VIEWS */
+
+.sign-in-wrapper{
+  border: 1px solid;
+  border-color: #CCCCCC;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#fb-btn {
+  margin-top: 10px;
+  margin-left: 0px;
+}
 
 .content {
   position: relative;
@@ -250,6 +277,10 @@ nav a:hover {
     background-color: rgba(0,0,0, 0.5);
 }
 
+#status{
+  display: none;
+}
+
 /* FOOTER */
 
 .footer {
@@ -257,7 +288,7 @@ nav a:hover {
     color: white;
     background-color: #e6a36d;
     text-align: center;
-    height: 200px;
+    height: 225px;
     width: 100%;
     margin-top: 40px;
     padding:5px 10px 5px 10px;
@@ -298,12 +329,21 @@ nav a:hover {
 /* MEDIA QUERIES */
 
 @media(max-width:768px) {
-    #login-dp {
-        background-color: inherit;
-        color: #fff;
-    }
-    #login-dp .bottom {
-        background-color: inherit;
-        border-top: 0 none;
-    }
+
+}
+
+@media(max-width:475px){
+  .logo{
+    margin-top: 4px;
+    margin-left: -35px;
+  }
+
+  #h-sign-in{
+    margin-top: -8px;
+    display: block;
+  }
+
+  #c-sign-in{
+    margin-top: 0px;
+  }
 }

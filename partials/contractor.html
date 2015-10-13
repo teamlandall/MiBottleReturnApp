@@ -1,52 +1,49 @@
 <div class="container-fluid">
-<!-- <div id="contract-container"> -->
 	<h4> Welcome back, Charlie! </h4>
 
 	<div class="row">
-	<div class="col-xs-12" ng-controller="mapController">
-		<mapbox class="contractor-map" map-id="kkieninger.cife3agsc6cy9rylxl7ldcgjn"
-        lat="42.347"
-        lng="-83.062"
-        on-reposition="mapMovedCallback"
-        on-zoom="mapZoomedCallback"
-        zoom="13" scale-to-fit>
-    		<marker ng-repeat="data in databaseOfUsers | filter: filterTerm"
-	            lat="{{data.lat}}"
-	            lng="{{data.lng}}"
-	            color="teal"
-	            icon="waste-basket"
-	            size="large">
-      			<h1 ng-model="data.name">{{data.name}}</h1>
-      			<p ng-model="data.address">{{data.address}}</p>
-      			<p ng-model="data.qty">Est. # bottles for pickup: {{data.qty}}</p>
-      			<a  ng-click="mapSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> See Details </a>
-    		</marker>
-  		</mapbox>
+		<div class="col-xs-12" ng-controller="mapController">
+			<mapbox class="contractor-map" map-id="kkieninger.cife3agsc6cy9rylxl7ldcgjn"
+	        lat="42.347"
+	        lng="-83.062"
+	        on-reposition="mapMovedCallback"
+	        on-zoom="mapZoomedCallback"
+	        zoom="13" scale-to-fit>
+	    		<marker ng-repeat="data in databaseOfUsers | filter: filterTerm"
+		            lat="{{data.lat}}"
+		            lng="{{data.lng}}"
+		            color="teal"
+		            icon="waste-basket"
+		            size="large">
+	      			<h1 ng-model="data.name">{{data.name}}</h1>
+	      			<p ng-model="data.address">{{data.address}}</p>
+	      			<p ng-model="data.qty">Est. # bottles for pickup: {{data.qty}}</p>
+	      			<a  ng-click="mapSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> See Details </a>
+	    		</marker>
+	  		</mapbox>
 
-	</div>
+		</div>
 	</div>
 	
 	<div class="row">
-	<div class="col-xs-12" id="bottle-table">
-	  <h4> Bottles Ready for Pick Up</h4>
-	  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
-	  <table class="table-hover table" > 
-	      <tr> 
-	        <th>Availabe Reservations</th>
-	      </tr>  
-      	<tr ng-repeat="data in databaseOfUsers | filter:searchList">
-	        <td ng-model="data.address"> {{ data.address }} </p>
-	        <p> {{ data.date | date: 'MMMM dd, yyyy' }} </p>
-	        <p> {{ data.time | date: 'h:mm a'}} </p>
-	        <p> {{ data.qty }} </p>
-	        <p> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> Select </td>
-      	</tr>
-    </table>
+		<div class="col-xs-12" id="bottle-table">
+	  		<h4> Bottles Ready for Pick Up</h4>
+			  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
+			  <table class="table-hover table" > 
+			      <tr> 
+			        <th>Availabe Reservations</th>
+			      </tr>  
+		      	<tr ng-repeat="data in databaseOfUsers | filter:searchList">
+			        <td ng-model="data.address"> {{ data.address }} </p>
+			        <p> {{ data.date | date: 'MMMM dd, yyyy' }} </p>
+			        <p> {{ data.time | date: 'h:mm a'}} </p>
+			        <p> {{ data.qty }} </p>
+			        <p> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> Select </td>
+		      	</tr>
+		    </table>
+		</div>
 	</div>
-	</div>
-
 	
-
 </div>
 
 
