@@ -46,7 +46,6 @@ body {
     width: 80%;
     margin: 0 auto 20px auto;
     border-radius: 5px;
-    /*border: 1px solid black;*/
 }
 
 /* LINKS */
@@ -82,6 +81,17 @@ a:visited {
 
 /* NAVIGATION */
 
+.nav {
+    background-color: rgba(0,0,0,0.5);
+    height: 70px;
+    width: 101.5%;
+    position: fixed;
+    margin: -10px -21px 0 -21px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    z-index: 9999;
+}
+
 nav a {
   color: #113B08;
   font-size: 1.1em;
@@ -111,7 +121,7 @@ nav li {
 
 .pull-right {
     text-align: right;
-    margin-top: 9px;
+    margin: 9px 15px 0 0;
 }
 
 .pull-right li {
@@ -120,6 +130,7 @@ nav li {
 
 nav a:hover {
     text-decoration: underline;
+    color: white;
 }
 
 /* INDEX/LANDING PAGE */
@@ -151,7 +162,7 @@ nav a:hover {
 }
 
 .intro {
-    margin-top: 325px;
+    margin-top: 375px;
 }
 
 .about, .charity, .faqs, .how-it-works, .intro {
