@@ -78,6 +78,13 @@ a:visited {
     color: blue;
 }
 
+.hidden-nav {
+  float: right;
+  font-size: 16px;
+  padding: 5px;
+  font-color: white;
+}
+
 
 /* NAVIGATION */
 
@@ -86,6 +93,7 @@ a:visited {
     margin: -10px -21px 0 -21px;
     padding: 10px;
     z-index: 9999;
+    /*position: fixed;*/
 }
 
 nav a {
@@ -286,6 +294,16 @@ nav a:hover {
   margin-left: 0px;
 }
 
+#status{
+  display: none;
+}
+
+#contractor-confirm-heading {
+  text-align: center;
+}
+
+/* ???? */
+
 .content {
   position: relative;
   z-index: 2000;
@@ -313,9 +331,7 @@ nav a:hover {
     background-color: rgba(0,0,0, 0.5);
 }
 
-#status{
-  display: none;
-}
+
 
 /* FOOTER */
 
