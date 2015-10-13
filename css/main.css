@@ -4,7 +4,6 @@
 body {
     width: 100%;
     height: 100%;
-/*    padding: 10px 20px 5px 20px;*/
 }
 
 #wrapper {
@@ -46,6 +45,7 @@ body {
 .about-image {
     width: 80%;
     margin: 0 auto 20px auto;
+    border-radius: 5px;
     /*border: 1px solid black;*/
 }
 
@@ -55,6 +55,7 @@ a:link {
     color: black;
     text-decoration: none;
 }
+
 a:hover {
     color: black;
     text-decoration: none;
@@ -66,44 +67,11 @@ a:visited {
 }
 
 
-/* HEADER */
-
-.jumbotron {
-    background-image: url('../images/glassbottles.jpg');
-/*    background-image: url('../images/beer-bottles1.jpg');
-    background-image: url('../images/beer-bottles4.jpg');*/
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Oswald', 'Arial', sans-serif;
-}
-
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
-.jumbotron h1 {
-  font-size: 4em;  
-  font-weight: bold;
-  text-align: center;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #113B08;
-  background-color: #ccc ;
-  border:1px solid #ccc;
-  border-radius:5px;
-  text-align:right;
-}
-
 /* NAVIGATION */
 
 nav a {
   color: #113B08;
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -111,6 +79,14 @@ nav a {
 
 nav li {
   display: inline-block;
+}
+
+.logo {
+    height: 35px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .pull-left {
@@ -130,7 +106,37 @@ nav a:hover {
 }
 
 /* INDEX/LANDING PAGE */
+/* HEADER */
 
+.jumbotron {
+    background-image: url('../images/beer-bottles-60.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', 'Arial', sans-serif;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  font-size: 4em;  
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #113B08;
+  background-color: #ccc ;
+  border:1px solid #ccc;
+  border-radius:5px;
+  text-align:right;
+}
 
 .hoarder-title, .contractor-title {
     text-align: center;
@@ -288,12 +294,5 @@ nav a:hover {
 /* MEDIA QUERIES */
 
 @media(max-width:768px) {
-    #login-dp {
-        background-color: inherit;
-        color: #fff;
-    }
-    #login-dp .bottom {
-        background-color: inherit;
-        border-top: 0 none;
-    }
+
 }
