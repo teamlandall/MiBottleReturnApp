@@ -1,6 +1,21 @@
 
 /* GENERAL */
 
+body {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px 5px 20px;
+}
+
+
+#wrapper { 
+    width: 100%; 
+    margin: 0px 0px 0px -15px; 
+    padding: 0px; 
+    height:500px; 
+    background-color: blue;
+    z-index: 100;
+}
 
 /* IMAGES */
 
@@ -29,126 +44,10 @@
   text-align: center; 
 }
 
-/* CONTRACTOR VIEWS */
-/* FORMS */
-/* MAPS */
-
-body {
-    width: 100%;
-    height: 100%;
-    padding: 10px 20px 5px 20px;
-}
-
-h1 {
-    font-family: 'Rancho', cursive;
-}
-
-h2 {font-family: inherit;
-    text-align: center;
-}
-
-h3 {font-family: inherit;
-    text-align: center;
-}
-
-
-#wrapper { 
-    width: 100%; 
-    margin: 0px 0px 0px -15px; 
-    padding: 0px; 
-    height:500px; 
-    background-color: blue;
-    z-index: 100;
-}
-
-.contractor-map {
-    width: 100%;
-    height: 300px;
-    border: 2px solid black;
-}
-
-
-
-
-/* HEADER */
-
-.jumbotron .container .learn-more-donate a {
-  color: #113B08!important;
-  font-size: 28px;
-}
-
-
-.jumbotron {
- background-image:url('../images/glassbottles.jpg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
-.jumbotron h1 {
-  color: #267A15;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #113B08;
-  background-color: #ccc ;
-  border:1px solid #ccc;
-  border-radius:5px;
-  text-align:right;
-}
-
-/* NAVIGATION */
-
-.nav {
-    background-color: rgba(0,0,0,0.3);
-}
-
-.nav a {
-  color: #113B08;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-}
-
-.nav li {
-  display: inline;
-}
-
-/* INDEX/LANDING PAGE */
-
-
-
-
-
-.container{
-    width: 700px;
-    margin: 0 auto;
-}
-
-
-#contract-container{
-    width: 900px;
-    margin-left: -100px;
-}
-
-#bottle-table{
-    margin-left: 5px;
-}
-
-.sign-in{
-    margin-top: 15px;
-    margin-right: 5px;
+.about-image {
+    margin: 0 auto 20px auto;
+    width: 80%;
+    /*border: 1px solid black;*/
 }
 
 /* LINKS */
@@ -167,7 +66,96 @@ a:visited {
     color: black;
 }
 
+
+/* HEADER */
+
+.jumbotron {
+    background-image: url('../images/glassbottles.jpg');
+/*    background-image: url('../images/beer-bottles1.jpg');
+    background-image: url('../images/beer-bottles4.jpg');*/
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    margin: -50px -25px 0 -25px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  font-size: 4em;  
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #113B08;
+  background-color: #ccc ;
+  border:1px solid #ccc;
+  border-radius:5px;
+  text-align:right;
+}
+
+/* NAVIGATION */
+
+nav a {
+  color: #113B08;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav li {
+  display: inline;
+}
+
+.pull-left {
+    text-align: left;
+}
+
+.pull-right {
+    text-align: right;
+}
+
+.pull-right li {
+    padding-left: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* INDEX/LANDING PAGE */
+
+
+.hoarder-title, .contractor-title {
+    text-align: center;
+}
+
+#contract-container{
+    width: 900px;
+    margin-left: -100px;
+}
+
+
+
+.sign-in{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
 /* MAPS */
+
+.contractor-map {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+}
 
 /* FORMS */ 
 
@@ -209,77 +197,6 @@ a:visited {
 }
 
 
-
-
-
-#login-dp {
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, .8);
-}
-#login-dp .bottom a, a:hover {
-    color: #086408;
-}
-
-#login-dp .help-block {
-    font-size: 85%;
-}
-
-#login-dp .bottom {
-    background-color: rgba(255, 255, 255, .8);
-    border-top: 1px solid #ddd;
-    clear: both;
-    padding: 14px;
-}
-
-#login-dp .social-buttons {
-    margin: 12px 0
-}
-
-#login-dp .social-buttons a {
-    width: 49%;
-}
-
-#login-dp .form-group {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.btn-fb {
-    color: #fff;
-    background-color: #3b5998;
-}
-
-.btn-fb:hover {
-    color: #fff;
-    background-color: #496ebc
-}
-
-.btn-go {
-    color: #fff;
-    background-color: #ea4335;
-}
-
-.btn-go:hover {
-    color: #fff;
-    background-color: red;
-}
-
-.btn-signin {
-    color: #fff;
-    background-color: #086408;
-}
-
-.btn-signin:hover {
-    color: #fff;
-    background-color: #207c20;
-}
-
-
-
-
-
 .about{
     text-align: center;
 }
@@ -301,15 +218,18 @@ a:visited {
     text-align: center;
 }
 
+/* HOARDER VIEWS */
 
+#bottle-table{
+    margin-left: 5px;
+}
 
+/* CONTRACTOR VIEWS */
 
 .content {
   position: relative;
   z-index: 2000;
 }
-
-
 
 .clearfix:before,
 .clearfix:after {
@@ -320,8 +240,6 @@ a:visited {
 .clearfix:after {
     clear: both;
 }
-
-
 
 .elbow-room {
     margin-left:100px!important;
@@ -341,7 +259,7 @@ footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
     background-color: black;
-    margin: 15px auto;
+    margin: 15px -25px -50px -25px;
     text-align: center;
     height: 200px;
 }
