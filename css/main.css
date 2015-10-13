@@ -6,9 +6,9 @@ body {
     height: 100%;
 }
 
-#wrapper {
+/*#wrapper {
     padding: 0 20px;
-}
+}*/
 
 
 .container-fluid {
@@ -127,6 +127,9 @@ nav a:hover {
 
 .jumbotron {
     background-image: url('../images/beer-bottles-60.jpg');
+    position: absolute;
+    top: 0;
+    z-index: -1;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -144,7 +147,17 @@ nav a:hover {
   font-weight: bold;
   text-align: center;
   color: white;
+  margin-top: 75px;
 }
+
+.intro {
+    margin-top: 325px;
+}
+
+.about, .charity, .faqs, .how-it-works, .intro {
+    padding: 0 20px;
+}
+
 
 .hoarder-title, .contractor-title {
     text-align: center;
@@ -199,11 +212,6 @@ nav a:hover {
     color: #086408;
 }
 
-
-.about{
-    text-align: center;
-}
-
 .howHoarder{
     text-align: center;
 
@@ -212,13 +220,6 @@ nav a:hover {
 .howContractor{
     text-align: center;
 
-}
-.items{
-    text-align: center;
-}
-
-.faqs{
-    text-align: center;
 }
 
 /* HOARDER VIEWS */
