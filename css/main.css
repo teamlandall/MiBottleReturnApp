@@ -82,13 +82,9 @@ a:visited {
 /* NAVIGATION */
 
 .nav {
-    background-color: rgba(0,0,0,0.5);
-    height: 70px;
-    width: 101.5%;
-    position: fixed;
+    width: 102%;
     margin: -10px -21px 0 -21px;
     padding: 10px;
-    border-bottom: 1px solid black;
     z-index: 9999;
 }
 
