@@ -30,29 +30,18 @@
 	<div class="row">
 	<div class="col-xs-12" id="bottle-table">
 	  
-	  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
+	  <input type="text" ng-model="searchList" placeholder="Filter Pickups" id="search" />
 	  <table class="table-hover table" > 
 	      <tr> 
 	        <th>Availabe Reservations</th>
 	      </tr>  
       	<tr ng-repeat="data in databaseOfUsers | filter:searchList">
 	        <td ng-model="data.address"> {{ data.address }} </p>
-	        <p> {{ data.date | date: 'MMMM dd, yyyy' }} </p>
-	        <p> {{ data.time | date: 'h:mm a'}} </p>
-	        <p> {{ data.qty }} </p>
+	        <p> {{ data.date | date: 'MMMM dd, yyyy' }} at {{ data.time | date: 'h:mm a'}} </p>
+	        <p> {{ data.qty }} bottles for pickup</p>
 	        <p> <a ng-click="tblSubmit(data)" role="button" class="btn btn-default btn-xs" href="#/resOption"> Select </td>
       	</tr>
     </table>
-
-    
-
-
-
-
-
-
-
-
 		<div class="col-xs-12" id="bottle-table">
 	  		<h4> Bottles Ready for Pick Up</h4>
 			  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
