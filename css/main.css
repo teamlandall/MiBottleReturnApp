@@ -66,6 +66,19 @@ a:visited {
     color: black;
 }
 
+.cta-link:link {
+    color: blue;
+}
+
+.cta-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.cta-link:visited {
+    color: blue;
+}
+
 
 /* NAVIGATION */
 
@@ -131,15 +144,6 @@ nav a:hover {
   font-weight: bold;
   text-align: center;
   color: white;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #113B08;
-  background-color: #ccc ;
-  border:1px solid #ccc;
-  border-radius:5px;
-  text-align:right;
 }
 
 .hoarder-title, .contractor-title {
