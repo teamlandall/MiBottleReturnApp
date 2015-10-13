@@ -3,24 +3,29 @@
 <script src="js/facebookLog-in.js"></script>
 
 <div class="container-fluid">
-<h4> Earn Extra Cash </h4>
-<p> Sign Into Your Account </p>
-<form>
-  <div class="form-group">
-  <label for="exampleInputName1" id="form-input"> Full Name </label>
-      <input ng-model="cName" type="text" class="form-control" id="form" placeholder="ex. John Doe">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your.name@emailprovider.com">
+  <div class="sign-in-wrapper">
+    <h4> Earn Extra Cash </h4>
+    <p> Sign Into Your Account </p>
+    <form>
+      <div class="form-group">
+      <label for="exampleInputName1" id="form-input"> Full Name </label>
+          <input ng-model="cName" type="text" class="form-control" id="form" placeholder="ex. John Doe">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your.name@emailprovider.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Must include at least: 1 upper case, 1 lower case, 1 number, 1 symbol, 6 Hail Marys">
+      <a ng-click="cSignIn(cName)" role="button" class="btn btn-default btn-sm sign-in" href="#/contractor">Submit</a>
+
+
+    <div id='fb-btn'>
+      <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" id="fb-btn">
+      </fb:login-button>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Must include at least: 1 upper case, 1 lower case, 1 number, 1 symbol, 6 Hail Marys">
-  <a ng-click="cSignIn(cName)" role="button" class="btn btn-default btn-md sign-in" href="#/contractor">Submit</a>
+</div>
+
 </form>
-
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
-
 <div id="status">
 </div>
 

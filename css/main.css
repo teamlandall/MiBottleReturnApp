@@ -221,7 +221,24 @@ nav a:hover {
     margin-left: 5px;
 }
 
+#h-fb-btn {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
 /* CONTRACTOR VIEWS */
+
+.sign-in-wrapper{
+  border: 1px solid;
+  border-color: #CCCCCC;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#fb-btn {
+  margin-top: 10px;
+  margin-left: 0px;
+}
 
 .content {
   position: relative;
@@ -248,6 +265,10 @@ nav a:hover {
     border:2px solid green;
     border-radius: 25px;
     background-color: rgba(0,0,0, 0.5);
+}
+
+#status{
+  display: none;
 }
 
 /* FOOTER */
