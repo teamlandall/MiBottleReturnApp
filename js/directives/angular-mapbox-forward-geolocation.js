@@ -17,7 +17,7 @@
       },
       template: [
         '<form class="mapbbox-fgd" name="mapboxFGD"><input name="searchText" type="text" class="form-control" ng-focus="flagminerror=false" placeholder="{{selectedLoc || placeHolderText}}" id="mbac-searchInput" ng-minlength="minLength" ng-model="searchText" ng-keyup="!autoSuggest || search()"/>',
-        '<input type="button" value="Submit Address" id="mbfgd-searchbtn" class="btn btn-default" ng-click="search(\'button\')" >'
+        '<input type="button" value="Submit Address" id="mbfgd-searchbtn" class="btn btn-default btn-address" ng-click="search(\'button\')" >'
 
       ].join(''),
       link: function (scope,element,attrs) {

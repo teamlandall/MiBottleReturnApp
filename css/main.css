@@ -146,11 +146,6 @@ nav a:hover {
     text-align: center;
 }
 
-#contract-container{
-    width: 900px;
-    margin-left: -100px;
-}
-
 .sign-in{
     margin-top: 15px;
     margin-right: 5px;
@@ -167,21 +162,18 @@ nav a:hover {
 /* FORMS */ 
 
 #date-pick{
-    margin-top: 25px;
+    margin-top: -7px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
 #cal-glyph{
-    margin-top: 25px;
+    margin-top: -7px;
 }
 
 #time-pick{
-    margin-top: -10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-top: -41px;
 }
 
 #time-pick button{
@@ -189,7 +181,7 @@ nav a:hover {
 }
 
 #date-time-row{
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 #submit-btn{
@@ -227,6 +219,25 @@ nav a:hover {
 
 /* HOARDER VIEWS */
 
+/*#disclaimer{
+  font-size: .8em;
+}*/
+
+#qty-heading{
+  margin-top: 0px;
+}
+
+.btn-address{
+  float: left;
+  margin-bottom: 5px;
+}
+
+#current-loc-btn {
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
+
 #bottle-table{
     margin-left: 5px;
 }
@@ -236,6 +247,10 @@ nav a:hover {
   margin-left: 0px;
 }
 
+#hName-center{
+  text-align: center;
+}
+
 /* CONTRACTOR VIEWS */
 
 .sign-in-wrapper{
@@ -243,6 +258,10 @@ nav a:hover {
   border-color: #CCCCCC;
   border-radius: 5px;
   padding: 5px;
+}
+
+.sign-in-wrapper h3{
+  margin-top: 0px;
 }
 
 #fb-btn {
@@ -297,6 +316,13 @@ nav a:hover {
 
 /* MEDIA QUERIES */
 
+@media(max-width: 975px){
+  #time-pick {
+    margin-top: -10px;
+  }
+  
+}
+
 @media(max-width:768px) {
 
 }
@@ -315,4 +341,5 @@ nav a:hover {
   #c-sign-in{
     margin-top: 0px;
   }
+
 }
