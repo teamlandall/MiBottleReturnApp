@@ -126,7 +126,6 @@ nav li {
 
 nav a:hover {
     text-decoration: underline;
-    color: white;
 }
 
 /* INDEX/LANDING PAGE */
@@ -149,11 +148,6 @@ nav a:hover {
     font-family: 'Oswald', 'Arial', sans-serif;
 }
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
 .jumbotron h1 {
   font-size: 4em;  
   font-weight: bold;
@@ -167,7 +161,7 @@ nav a:hover {
 }
 
 .about, .charity, .faqs, .how-it-works, .intro {
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 
@@ -362,6 +356,7 @@ nav a:hover {
     position:relative;
    // z-index: 500!important;
 }
+
 /* MEDIA QUERIES */
 
 @media(max-width: 975px){
