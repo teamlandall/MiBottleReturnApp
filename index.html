@@ -7,27 +7,24 @@
 	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link rel='stylesheet' type='text/css' href="https://fonts.googleapis.com/css?family=Rancho">
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <!-- <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
    <script type="text/javascript" charset="utf-8" src="js/tubularindex.js"></script> -->
 </head>
 <body>
-
-<div class="container-fluid">
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="/">[ botl. ]</a></li>
-          <li><a href="/">How It Works</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#/hoarderSign-in">Hoarder Log In</a></li>
-          <li><a href="#/contractorSign-in">Contractor Log In</a></li>
-        </ul>
-      </div>
-    </div>
+  <div id="wrapper">
+  <div class="container-fluid">
+    <nav>
+      <ul class="pull-left">
+        <li><a href="/">[ botl. ]</a></li>
+      </ul>
+      <ul class="pull-right">
+        <li><a href="#/hoarderSign-in">Hoarder Log In</a></li>
+        <li><a href="#/contractorSign-in">Contractor Log In</a></li>
+      </ul>
+    </nav> 
+  </div>   
 
 
 	<div ng-app="bottleReturn">
@@ -35,7 +32,8 @@
       <ng-view></ng-view>
 
 	</div> <!-- end of app -->
-  <footer>
+  </div>
+  <footer class="footer">
     <p>botl. inc. | 2015 &copy;</p>
     <!-- AddToAny BEGIN -->
 <div class="a2a_kit a2a_default_style float-right">
@@ -51,7 +49,6 @@
 <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
   </footer>
-</div>
 
 
 
