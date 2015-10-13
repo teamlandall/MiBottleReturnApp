@@ -304,6 +304,10 @@ nav a:hover {
   z-index: 2000;
 }
 
+#search {
+    margin: 10px;
+}
+
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
@@ -406,4 +410,10 @@ nav a:hover {
     margin-right: -20px;
   }
 
+}
+
+@media(max-width:420px) {
+    #bottle-table {
+        font-size: 0.93em;
+    }
 }
