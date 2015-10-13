@@ -1,38 +1,61 @@
-//css from main by landall
 
+/* GENERAL */
 
-#map-size{
+body {
     width: 100%;
-    height: 300px;
-}
-#hero{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+    height: 100%;
 }
 
-.container{
-    width: 700px;
-    margin: 0 auto;
-}
-#contract-container{
-    width: 900px;
-    margin-left: -100px;
+#wrapper {
+    padding: 0 20px;
 }
 
-#bottle-table{
-    margin-left: 5px;
+
+.container-fluid {
+    margin-top: 10px;
 }
 
-.sign-in{
-    margin-top: 15px;
-    margin-right: 5px;
+/* IMAGES */
+
+#hoarder-img{
+  width: 40%;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
 }
+
+#contractor-img{
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.rating-stars{
+  width: 40%;
+  max-width: 150px;
+  height: auto;
+}
+
+#picture-star p{
+  text-align: center; 
+}
+
+.about-image {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+}
+
+/* LINKS */
 
 a:link {
     color: black;
     text-decoration: none;
 }
+
 a:hover {
     color: black;
     text-decoration: none;
@@ -43,11 +66,104 @@ a:visited {
     color: black;
 }
 
-.angular-mapbox-map {
+
+/* NAVIGATION */
+
+nav a {
+  color: #113B08;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.logo {
+    height: 35px;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.pull-left {
+    text-align: left;
+}
+
+.pull-right {
+    text-align: right;
+}
+
+.pull-right li {
+    padding-left: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* INDEX/LANDING PAGE */
+/* HEADER */
+
+.jumbotron {
+    background-image: url('../images/beer-bottles-60.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', 'Arial', sans-serif;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  font-size: 4em;  
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #113B08;
+  background-color: #ccc ;
+  border:1px solid #ccc;
+  border-radius:5px;
+  text-align:right;
+}
+
+.hoarder-title, .contractor-title {
+    text-align: center;
+}
+
+#contract-container{
     width: 900px;
+    margin-left: -100px;
+}
+
+.sign-in{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+/* MAPS */
+
+.contractor-map {
+    width: 100%;
     height: 300px;
     border: 2px solid black;
 }
+
+/* FORMS */ 
 
 #date-pick{
     margin-top: 25px;
@@ -79,10 +195,6 @@ a:visited {
     margin-left: 15px;
 }
 
-
-
- // end CSS by Landall
-
 .hinttext {
     font-style: italic;
     font-size: 70%;
@@ -90,135 +202,6 @@ a:visited {
     color: #086408;
 }
 
-@charset "UTF-8";
-
-/* CSS Document */
-
-body {
-    width: 100%;
-    height: 100%;
-
-    padding: 10px 20px 5px 20px;
-    
-    /*z-index: 0;*/
-    /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
-
-    /*background-image: url("../images/bottles.jpg");*/
-    /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*
-    /* background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);
-
-    background-image: url("../images/bottles.jpg"); */
-    /*background: -webkit-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
-
-    /* Chrome 10+, Saf5.1+ */
-    /*background: -moz-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
-    /* FF3.6+ */
-    /*background: -ms-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
-    /* IE10 */
-    /*background: -o-linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
-    /* Opera 11.10+ */
-    /*background: linear-gradient(90deg, #5cb85c 10%, #086408 90%);*/
-    /* W3C */
-    font-family: 'Raleway', sans-serif;
-}
-
-p {
-    color: #CCC;
-}
-
-.navbar-brand {
-    width: 200px;
-    margin: 4px;
-    color: #207c20;
-    font:110%;
-    color: green;
-}
-
-.navbar-header {
-    height: 50px;
-}
-.navbar-text {
-    font-size:100%;
-    color: white!important;
-    font-weight: bold;
-}
-
-
-
-#login-dp {
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, .8);
-}
-#login-dp .bottom a, a:hover {
-    color: #086408;
-}
-
-#login-dp .help-block {
-    font-size: 85%;
-}
-
-#login-dp .bottom {
-    background-color: rgba(255, 255, 255, .8);
-    border-top: 1px solid #ddd;
-    clear: both;
-    padding: 14px;
-}
-
-#login-dp .social-buttons {
-    margin: 12px 0
-}
-
-#login-dp .social-buttons a {
-    width: 49%;
-}
-
-#login-dp .form-group {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.btn-fb {
-    color: #fff;
-    background-color: #3b5998;
-}
-
-.btn-fb:hover {
-    color: #fff;
-    background-color: #496ebc
-}
-
-.btn-go {
-    color: #fff;
-    background-color: #ea4335;
-}
-
-.btn-go:hover {
-    color: #fff;
-    background-color: red;
-}
-
-.btn-signin {
-    color: #fff;
-    background-color: #086408;
-}
-
-.btn-signin:hover {
-    color: #fff;
-    background-color: #207c20;
-}
-
-@media(max-width:768px) {
-    #login-dp {
-        background-color: inherit;
-        color: #fff;
-    }
-    #login-dp .bottom {
-        background-color: inherit;
-        border-top: 0 none;
-    }
-}
 
 .about{
     text-align: center;
@@ -241,80 +224,35 @@ p {
     text-align: center;
 }
 
-h1{
-    font-family: 'Rancho', cursive;
+/* HOARDER VIEWS */
+
+#bottle-table{
+    margin-left: 5px;
 }
 
-h2{font-family: inherit;
-    text-align: center;
+#h-fb-btn {
+  margin-top: 20px;
+  margin-left: 0px;
 }
 
-h3{font-family: inherit;
-    text-align: center;
+/* CONTRACTOR VIEWS */
+
+.sign-in-wrapper{
+  border: 1px solid;
+  border-color: #CCCCCC;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-
-p{
-    color: black;
-    text-align: center;
-    font-size:30px;
-}
-
-html,
-body,
-div,
-h1,
-p,
-a,
-video {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  height: 100%;
+#fb-btn {
+  margin-top: 10px;
+  margin-left: 0px;
 }
 
 .content {
   position: relative;
   z-index: 2000;
 }
-
-/*.video {
-  position: fixed;
-  top: 50%; left: 50%;
-  z-index: 1;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
-}
-
-----------------------------
-    PAGE/SECTION SPECIFIC
-    ____________________________
-*/
-
-
-#video-controls { width: 333px; }
-#video-controls a { color: #ddd; text-decoration: underline; }
-
-
-/*
-    ----------------------------
-    UTILITY CLASSES
-    ____________________________
-*/
-
-
-.black-15 { background: url(../media/black-15-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
-.black-35 { background: url(../media/black-35-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
-.black-50 { background: url(../media/black-50-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
-.black-65 { background: url(../media/black-65-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
-.black-85 { background: url(../media/black-85-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
-
 
 .clearfix:before,
 .clearfix:after {
@@ -326,14 +264,6 @@ body {
     clear: both;
 }
 
-#wrapper { 
-    width: 100%; 
-    margin: 0px 0px 0px -15px; 
-    padding: 0px; 
-    height:500px; 
-    background-color: blue;
-    z-index: 100;}
-
 .elbow-room {
     margin-left:100px!important;
 }
@@ -344,4 +274,28 @@ body {
     border:2px solid green;
     border-radius: 25px;
     background-color: rgba(0,0,0, 0.5);
+}
+
+#status{
+  display: none;
+}
+
+/* FOOTER */
+
+.footer {
+    font-family: 'Oswald', 'Arial', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:768px) {
+
 }

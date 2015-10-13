@@ -33,13 +33,13 @@
         }
 
         if (attrs.autoSize === undefined ) {
-            var mapWidth = attrs.width || 500;
-            var mapHeight = attrs.height || 500;
+            var mapWidth = attrs.width || 100;
+            var mapHeight = attrs.height || 300;
 
             if ( isNaN(mapWidth) ) {
               element.css('width', mapWidth);
             } else {
-              element.css('width', mapWidth + 'px');
+              element.css('width', mapWidth + '%');
             }
 
             if ( isNaN(mapHeight) ) {

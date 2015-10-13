@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"po",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"di",
+				"d-i	display: inline;"
+			],
+			[
+				"my",
+				"myCost"
+			],
+			[
+				"is",
+				"isaLeapYear"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"random",
+				"randomLyric"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ht",
+				"https"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"pirate",
+				"pirateNav"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"in",
+				"instarrgram"
+			],
+			[
+				"position",
+				"list-style-position"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"view",
+				"view2"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"lisst",
+				"list-style"
+			],
+			[
+				"s",
+				"script	HTML - Script"
+			],
+			[
+				"G",
+				"Grains"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"bold",
+				"bolder"
+			],
+			[
+				"bacground",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"redd",
+				"redditArray"
+			],
+			[
+				"Item",
+				"itemPrice"
+			],
+			[
+				"item",
+				"itemName"
+			],
+			[
+				"g",
+				"groceryList"
+			],
+			[
+				"it",
+				"itemName"
+			],
+			[
+				"cal",
+				"calcCircleDimensions"
+			],
+			[
+				"pr",
+				"printOut"
+			],
+			[
+				"calc",
+				"calcCircumpherence"
+			],
+			[
+				"labe",
+				"labelValue"
+			],
+			[
+				"label",
+				"labelName"
+			],
+			[
+				"price",
+				"priceTotal"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"c",
+				"celFormula"
+			],
+			[
+				"Font",
+				"font-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"boo",
+				"text-bottom"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"out",
+				"outline-color"
+			],
+			[
+				"border-rad",
+				"border-radius"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"fot",
+				"font-style"
+			],
+			[
+				"border-radi",
+				"border-bottom-left-radius"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"b",
+				"bgcolor	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tubular.html",
+			"settings":
+			{
+				"buffer_size": 2881,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inProgress/airframe.html",
+			"settings":
+			{
+				"buffer_size": 3380,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/static.css",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Windows",
+				"name": ".nav a {"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: pl",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/css",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js/controllers",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js/mapBox",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js/required",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js/required/directives",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js/services"
+	],
+	"file_history":
+	[
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js/tubularindex.js",
+		"/C/Users/Xaos247/Desktop/finalproject - FUBU/MiBottleReturnApp/tubular.html",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/tubular.html",
+		"/C/Users/Xaos247/Desktop/AUTHGoogle/AuthlinkGOOGLE - deets.txt",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/styles/main.css",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/js/jquery.tubular.1.0.js",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/index.html",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/no-brand/googleController.js",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/TEST/app.js",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/TEST/factory.js",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/TEST/google2.html",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/TEST/index.html",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/TEST/google.html",
+		"/C/Users/Xaos247/Desktop/junk-finalProject/email.html",
+		"/C/Users/Xaos247/Desktop/junk-finalProject/bottlereturnjunk.html",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/do-not-link/email.html",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/main.css",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/login-bar.html",
+		"/C/Users/Xaos247/Desktop/MiBottleReturnApp/index-w-login.html",
+		"/C/Users/Xaos247/Desktop/finalproject/login-bar.html",
+		"/C/Users/Xaos247/Desktop/finalproject - FUBU/toWorkOn/feedbackForm.html",
+		"/C/Users/Xaos247/Desktop/finalproject/MiBottleReturnApp/main.css",
+		"/C/Users/Xaos247/Desktop/finalproject/MiBottleReturnApp/css/main.css",
+		"/C/Users/Xaos247/Desktop/finalproject/css/main.css",
+		"/C/Users/Xaos247/Desktop/finalproject/css/New Text Document.txt",
+		"/C/Users/Xaos247/Desktop/finalproject/JUNK/stratos.html",
+		"/C/Users/Xaos247/Desktop/finalproject/JUNK/testcode.html",
+		"/C/Users/Xaos247/Desktop/finalproject/index.html",
+		"/C/Users/Xaos247/Desktop/finalproject/partials/TEST-new-hoarder-signup.html",
+		"/C/Users/Xaos247/Desktop/finalproject/hoarder.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/leapYearFunction.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/OOPshapeTypes.js",
+		"/C/Users/Xaos247/Desktop/RECRUITERTOCONTACT.txt",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/testforPaladrome.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/vendingMachine/vending.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/CodeRetreat/fbw.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/IIFELeapYear.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/week5/CLOSURES/testMeaningOfLife/main.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/numHoleCounterSimple.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/anagram.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/numHoleCounterElegant.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/numHoleCounterIIFE.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/IIFE_enclosure_syntax.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/week5/CLOSURES/testMeaningOfLife/other.js",
+		"/C/Users/Xaos247/node-js-getting-started/package.json",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/lettersinCommon.js",
+		"/C/Users/Xaos247/node-js-getting-started/index.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/splits.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/labs/hoisting.js",
+		"/C/Users/Xaos247/node-js-getting-started/index-BU.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/gulpfile.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/app.js",
+		"/C/Users/Xaos247/.heroku/procfile.txt",
+		"/C/Users/Xaos247/node-js-getting-started/node_modules/cool-ascii-faces/index.js",
+		"/C/Users/Xaos247/node-js-getting-started/node_modules/cool-ascii-faces/cli.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/gulp.mess.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/nodeSite/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/package.json",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/nodeSite/css/style.styl",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/nodeSite/css/style.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/nodeSite/css/animate.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/nodeSite/css/styles.styl.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/nodeSite/css/styles.styl",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/node_modules/mkdirp/readme.markdown",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/makeMeNew.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/week3/SkeleGRID/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/style.styl",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/Week1/day4/FRESH/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/work/Week1/day3/Lab/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/nodeJS/stuff",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/nodeJS/randomlyrics.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/nodeJS/server.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/nodeJS/listeningNode.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/nodeJS/mathy.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/css/style.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/nodeJS/numbersdone.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/js/backstretchscript.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week3/backstretch/README.md",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/partials/pirateName.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/partials/instagram.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/nodeJS/excedrin.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/partials/pirateTranslate.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/js/porthole.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/css/pirateNameStyle.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/name-generator-script-demo.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/js/newNames.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/AngularApp-BACKUP/GroupAngularApp/css/style.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week3/SkeleGRID/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/AngularApp-BACKUP/GroupAngularApp/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week3/SkeleGRID/js/script.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/TeamProjectMinkah/GroupAngularApp/partials/404.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week3/backstretch/examples/basic.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week3/jquery-demo/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week3/JQMethods/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/GIT/git-commands.txt",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/18a-fun/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/fonts/Caribbean_Regular/stylesheet.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/Directives/directive.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/Dir-Skel/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/Dir-Skel/navdirectives.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/Dir-Skel/js/script.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/Dir-Skel/css/style.css",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/snippets/javascript/notations.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/snippets/javascript/comparisonwithArrays.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/snippets/javascript/MIN-MAX-RANDOM-RANGE.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/snippets/JSSlotMachine.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/snippets/arrayofFamily.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/cat-dog/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/SERVICES/index.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/SERVICES/js/TomWaitsController.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/SERVICES/js/service.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/SERVICES/partials/tom-waits.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/SERVICES/js/resultCtrl.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/SERVICES/js/app.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/Week2-5-Git.pdf",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week3/functionpractice.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week5/app.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/SERVICES/serviceEx/js/app.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/SERVICES/serviceEx/js/service.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/SERVICES/serviceEx/js/secondCtrl.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/cat-dog/script.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/cat-dog/app.js",
+		"/C/Users/Xaos247/Desktop/CODE/jQuery/document.ready.js",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/cat-dog/view1.html",
+		"/C/Users/Xaos247/Desktop/BOOTCAMP/week4/cat-dog/view2.html",
+		"/C/Users/Xaos247/AppData/Roaming/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/C/Users/Xaos247/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 123.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mapbox-forward-geo",
+			"3",
+			"2",
+			"80",
+			"body",
+			"<div ng-app=\"bottleReturn\">\n		</div>",
+			"<script type=\"text/javascript\" charset=\"utf-8\" src=\"js/jquery.tubular.1.0.js\"></script>\n    <script type=\"text/javascript\" charset=\"utf-8\" src=\"js/tubularindex.js\"></script>",
+			"<p id=\"video-controls\" class=\"black-65\">Video controls:<br /><a href=\"#\" class=\"tubular-play\">Play</a> | <a href=\"#\" class=\"tubular-pause\">Pause</a> | <a href=\"#\" class=\"tubular-volume-up\">Volume Up</a> | <a href=\"#\" class=\"tubular-volume-down\">Volume Down</a> | <a href=\"#\" class=\"tubular-mute\">Mute</a></p> ",
+			" \n",
+			"<p id=\"video-controls\" class=\"black-65\">Video controls:<br /><a href=\"#\" class=\"tubular-play\">Play</a> | <a href=\"#\" class=\"tubular-pause\">Pause</a> | <a href=\"#\" class=\"tubular-volume-up\">Volume Up</a> | <a href=\"#\" class=\"tubular-volume-down\">Volume Down</a> | <a href=\"#\" class=\"tubular-mute\">Mute</a></p>",
+			"index.js",
+			"wrapper",
+			".video {\n  position: fixed;\n  top: 50%; left: 50%;\n  z-index: 1;\n  min-width: 100%;\n  min-height: 100%;\n  width: auto;\n  height: auto;\n  transform: translate(-50%, -50%);\n}",
+			"// var app = angular.module('googleApp');\n\n// app.factory(\"GPlusAuthService\", function ($q, $window) {\n//     var signIn;\n//     signIn = function () {\n//         var defered = $q.defer();\n//         $window.signinCallback = function (response) {\n//             $window.signinCallback = undefined;\n//             defered.resolve(response);\n//         },\n\n//         gapi.auth.signIn({\n//             clientid: \"571466934551-44t86ail32rkpmrdpb5h7hfe0sngg5ae.apps.googleusercontent.com\",\n//             cookiepolicy: \"single_host_origin\",\n//             requestvisibleactions: \"http://schemas.google.com/AddActivity\",\n//             scope: \"https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read\",\n//             callback: \"signinCallback\"\n\n//         }) \n//         return defered.promise;\n//     },\n//     return {\n//         signIn: signIn;\n//     }\n// });",
+			"<div class=\"col-xs-1\">\n		<a role=\"button\" class=\"btn btn-default\" href=\"#/contractor\">Contractor</a>\n	</div>\n	<div class=\"col-xs-1\">\n		<a role=\"button\" class=\"btn btn-default\" href=\"#/hoarder\">Hoarder</a>\n	</div>\n	<div class=\"col-xs-1\"> </div> ",
+			"50px",
+			"body{\n    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');\n    padding:50px;\n}",
+			"<form class=\"navbar-form navbar-left\" role=\"search\">\n        <div class=\"form-group\">\n          <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n        </div>\n        <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n      </form>",
+			"3A6073",
+			"16222A",
+			"16230",
+			"console.log",
+			"<script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js\"></script>",
+			"bro",
+			"<p ng-repeat=\"yell in babble1\">{{babble.babble}} </p> ",
+			"item",
+			"<div class=\".col-md-3 seat avail\"></div>",
+			"3",
+			".col-md-3",
+			"circumpherence",
+			"document.write",
+			"\">",
+			"div",
+			"margin: 0 ",
+			"margin:0 auto;",
+			"center",
+			"width=200px",
+			"class=\"center images-row\"",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"response.write",
+			"circumference",
+			"console.log",
+			"width=150px",
+			"class=\"center images-row slideLeft\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tubular.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1966,
+								1966
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1623.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inProgress/airframe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/static.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+							"gutter_color_375":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#267A15.png",
+								"regions":
+								[
+									[
+										375,
+										392
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_411":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#267A15.png",
+								"regions":
+								[
+									[
+										375,
+										392
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_508":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#113B08.png",
+								"regions":
+								[
+									[
+										508,
+										525
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_526":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										526,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_544":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#113B08.png",
+								"regions":
+								[
+									[
+										508,
+										525
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_553":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										553,
+										577
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_562":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										526,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_589":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										553,
+										577
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_636":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f7f7f7.png",
+								"regions":
+								[
+									[
+										636,
+										664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_672":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f7f7f7.png",
+								"regions":
+								[
+									[
+										636,
+										664
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_780":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										780,
+										794
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_816":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										780,
+										794
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_821":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#efefef.png",
+								"regions":
+								[
+									[
+										821,
+										850
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_851":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dbdbdb.png",
+								"regions":
+								[
+									[
+										851,
+										888
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_857":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#efefef.png",
+								"regions":
+								[
+									[
+										821,
+										850
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_887":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dbdbdb.png",
+								"regions":
+								[
+									[
+										851,
+										888
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#113B08.png",
+								"regions":
+								[
+									[
+										9,
+										26
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_923":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#393c3d.png",
+								"regions":
+								[
+									[
+										923,
+										942
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_959":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#393c3d.png",
+								"regions":
+								[
+									[
+										923,
+										942
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".nav a {",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 28.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "finalproject.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
