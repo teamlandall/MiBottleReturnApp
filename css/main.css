@@ -4,12 +4,13 @@
 body {
     width: 100%;
     height: 100%;
+
     background-color: #e5e1cf;
 }
 
-#wrapper {
+/*#wrapper {
     padding: 0 20px;
-}
+}*/
 
 
 .container-fluid {
@@ -47,7 +48,6 @@ body {
     width: 80%;
     margin: 0 auto 20px auto;
     border-radius: 5px;
-    /*border: 1px solid black;*/
 }
 
 /* LINKS */
@@ -67,8 +67,36 @@ a:visited {
     color: black;
 }
 
+.cta-link:link {
+    color: blue;
+}
+
+.cta-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.cta-link:visited {
+    color: blue;
+}
+
+.hidden-nav {
+  float: right;
+  font-size: 16px;
+  padding: 5px;
+  font-color: white;
+}
+
 
 /* NAVIGATION */
+
+.nav {
+    width: 102%;
+    margin: -10px -21px 0 -21px;
+    padding: 10px;
+    z-index: 9999;
+    /*position: fixed;*/
+}
 
 nav a {
   color: #113B08;
@@ -111,10 +139,18 @@ nav a:hover {
 }
 
 /* INDEX/LANDING PAGE */
+
+.landing-breaks {
+  border-top: 2px solid #CCCCCC;
+  border-bottom: 2px solid #CCCCCC;
+}
 /* HEADER */
 
 .jumbotron {
     background-image: url('../images/beer-bottles-60.jpg');
+    position: absolute;
+    top: 0;
+    z-index: -1;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -122,34 +158,25 @@ nav a:hover {
     font-family: 'Oswald', 'Arial', sans-serif;
 }
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
 .jumbotron h1 {
   font-size: 4em;  
   font-weight: bold;
   text-align: center;
   color: white;
+  margin-top: 75px;
 }
 
-.jumbotron p {
-  font-size: 20px;
-  color: #113B08;
-  background-color: #ccc ;
-  border:1px solid #ccc;
-  border-radius:5px;
-  text-align:right;
+.intro {
+    margin-top: 325px;
 }
+
+.about, .charity, .faqs, .how-it-works, .intro {
+    padding: 0 40px;
+}
+
 
 .hoarder-title, .contractor-title {
     text-align: center;
-}
-
-#contract-container{
-    width: 900px;
-    margin-left: -100px;
 }
 
 .sign-in{
@@ -168,21 +195,18 @@ nav a:hover {
 /* FORMS */ 
 
 #date-pick{
-    margin-top: 25px;
+    margin-top: -7px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
 #cal-glyph{
-    margin-top: 25px;
+    margin-top: -7px;
 }
 
 #time-pick{
-    margin-top: -10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-top: -41px;
 }
 
 #time-pick button{
@@ -190,7 +214,7 @@ nav a:hover {
 }
 
 #date-time-row{
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 #submit-btn{
@@ -204,11 +228,6 @@ nav a:hover {
     color: #086408;
 }
 
-
-.about{
-    text-align: center;
-}
-
 .howHoarder{
     text-align: center;
 
@@ -218,15 +237,27 @@ nav a:hover {
     text-align: center;
 
 }
-.items{
-    text-align: center;
-}
-
-.faqs{
-    text-align: center;
-}
 
 /* HOARDER VIEWS */
+
+/*#disclaimer{
+  font-size: .8em;
+}*/
+
+#qty-heading{
+  margin-top: 0px;
+}
+
+.btn-address{
+  float: left;
+  margin-bottom: 5px;
+}
+
+#current-loc-btn {
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
 
 #bottle-table{
     margin-left: 5px;
@@ -237,13 +268,21 @@ nav a:hover {
   margin-left: 0px;
 }
 
+#hName-center{
+  text-align: center;
+}
+
 /* CONTRACTOR VIEWS */
 
 .sign-in-wrapper{
   border: 1px solid;
   border-color: #CCCCCC;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 5px;
+}
+
+.sign-in-wrapper h3{
+  margin-top: 0px;
 }
 
 #fb-btn {
@@ -251,10 +290,15 @@ nav a:hover {
   margin-left: 0px;
 }
 
-.content {
-  position: relative;
-  z-index: 2000;
+#status{
+  display: none;
 }
+
+#contractor-confirm-heading {
+  text-align: center;
+}
+
+/* clearing */
 
 .clearfix:before,
 .clearfix:after {
@@ -264,22 +308,6 @@ nav a:hover {
 
 .clearfix:after {
     clear: both;
-}
-
-.elbow-room {
-    margin-left:100px!important;
-}
-
-.onTop{
-    z-index: 500;
-    width:90%;
-    border:2px solid green;
-    border-radius: 25px;
-    background-color: rgba(0,0,0, 0.5);
-}
-
-#status{
-  display: none;
 }
 
 /* FOOTER */
@@ -356,6 +384,12 @@ nav a:hover {
   padding-left:38%;
   }
 
+@media(max-width: 975px){
+  #time-pick {
+    margin-top: -10px;
+  }
+  
+}
 
 @media(max-width:768px) {
 .footer {
@@ -377,7 +411,7 @@ nav a:hover {
 @media(max-width:475px){
   .logo{
     margin-top: 4px;
-    margin-left: -35px;
+    margin-left: -15px;
   }
 
   #h-sign-in{
@@ -388,6 +422,7 @@ nav a:hover {
   #c-sign-in{
     margin-top: 0px;
   }
+
   .footer {
     font-size: 95%;
     background-image: url('../images/botl-logo-browns-xs.png');
@@ -406,4 +441,14 @@ nav a:hover {
   padding-left:20%;
   }
 
+  .pull-right {
+    margin-right: -20px;
+  }
+
+}
+
+@media(max-width:420px) {
+    #bottle-table {
+        font-size: 0.93em;
+    }
 }

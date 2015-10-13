@@ -1,24 +1,32 @@
-<h4>  Welcome Back, {{ hUserName }} </h4>
+
 <div class="container-fluid">
+	<h3> Welcome Back, Landall </h3>
+	<p> Let us take those bottles off your hands. </p>
+	<div class="sign-in-wrapper">
+	
+		<div class="form-group">
+	    
 
-	<div class="form-group">
-	    <!-- <label for="exampleInputName1" id="form-input"> Full Name </label>
-	    <input ng-model="data.name" type="text" class="form-control" id="form" placeholder="ex. John Doe"> -->
-
-	    <label for="exampleInputName1" id="form-input">  </label>
-		<mapbox-forward-geocoding query-results="results" ng-model="data.address" api-token="pk.eyJ1Ijoia2tpZW5pbmdlciIsImEiOiJjaWZlM2FpYWg2ZDl4czRtNzZhb3hmcG9nIn0._7XdzBHRCxYnyGhsJgzO2w"></mapbox-forward-geocoding>
-	    <label for="exampleInputName1" id="form-input">  </label>
-	    <!-- <input ng-model="data.qty" type="text" class="form-control" id="form" placeholder="Estimated total number of bottles. ex., 36 or 150 or 10,000"> -->
+	   <!--  <label for="exampleInputName1" id="form-input">  </label> -->
+	   <p> Where should we pick up the bottles? </p>
+		<mapbox-forward-geocoding query-results="results" ng-model="data.address" api-token="pk.eyJ1Ijoia2tpZW5pbmdlciIsImEiOiJjaWZlM2FpYWg2ZDl4czRtNzZhb3hmcG9nIn0._7XdzBHRCxYnyGhsJgzO2w"></mapbox-forward-geocoding> 
+		<button class="btn btn-default" id="current-loc-btn"> Use Current Location </button>
+	    <!-- <label for="exampleInputName1" id="form-input">  </label> -->
+	   <p> How many bottles do you have? </p>
 	    <select ng-model="data.qty" class="form-control">
 		  <option value="50">0-50</option>
 		  <option value="100">51-100</option>
 		  <option value="150">101-150</option>
 		  <option value="200">151-200</option>
+		  <option value="250">201-250</option>
+		  <option value="300">251-300</option>
 		</select>
 
 <div class="row" id="date-time-row">
 
-	<div class="col-md-12"> <p> Bottle pick up is guaranteed within a 1 hour window of your selected reservation time. </p> 
+	<div class="col-md-12"> 
+	<h4> Reserve Your Pick Up </h4>
+	<p id="disclaimer"> Bottle pick up is guaranteed within 1 hour of your selected reservation time. </p> 
 	</div>
 </div>
 <div class="row" id="date-time-row">
@@ -42,13 +50,13 @@
 
 
  		<a id="submit-btn" ng-click="submit(data)" role="button" value="add" class="btn btn-default" href="#/hoarderConfirm">Submit</a>
-<div>Icons made by <a href="http://www.MONEY%20EXCHANGE%20ICON.svg" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
 
 	</div>
 
- </div>
-
- </div>
+ 		</div>
+	</div>
+</div>
 
 
 

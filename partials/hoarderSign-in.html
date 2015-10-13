@@ -3,17 +3,18 @@
 <div class="container-fluid">
   <div class="sign-in-wrapper">
     <h4> So you let a bunch of bottles pile up? We got you covered.</h4>
+      <img src="images/can.svg ">
       <p>Sign Into Your Account</p>
-      <form>
+      <form id="hoarder-sign-in">
         <div class="form-group">
           <label for="exampleInputName1" id="form-input"> Full Name </label>
-  	       <input ng-model="hName" type="text" class="form-control" id="form" placeholder="ex. John Doe">
+  	       <input ng-model="hName" type="text" class="form-control" id="form">
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your.name@emailprovider.com">
+          <input type="email" class="form-control" id="exampleInputEmail1">
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Must include at least: 1 upper case, 1 lower case, 1 number, & 1 symbol">
+          <input type="password" class="form-control" id="exampleInputPassword1">
 
         <a ng-click="hSignIn(hName)" role="button" class="btn btn-default sign-in btn-sm" href="#/hoarder">Submit</a>
 
