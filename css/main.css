@@ -95,6 +95,7 @@ nav li {
 
 .pull-right {
     text-align: right;
+    margin-top: 9px;
 }
 
 .pull-right li {
@@ -295,4 +296,20 @@ nav a:hover {
 
 @media(max-width:768px) {
 
+}
+
+@media(max-width:475px){
+  .logo{
+    margin-top: 4px;
+    margin-left: -35px;
+  }
+
+  #h-sign-in{
+    margin-top: -8px;
+    display: block;
+  }
+
+  #c-sign-in{
+    margin-top: 0px;
+  }
 }
