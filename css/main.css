@@ -49,6 +49,31 @@ body {
     border-radius: 5px;
 }
 
+
+.faq-icon{
+  height: 50px;
+  width:50px;
+}
+
+.donate-icon{
+  height: 50px;
+  width:50px;
+}
+
+.covered-icon{
+  height:50px;
+  width:50px;
+}
+
+.money-icon{
+  height:50px;
+  width:50px;
+}
+
+
+
+
+
 /* LINKS */
 
 a:link {
@@ -417,3 +442,4 @@ nav a:hover {
         font-size: 0.93em;
     }
 }
+
