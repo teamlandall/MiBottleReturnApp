@@ -123,6 +123,11 @@ nav a:hover {
 }
 
 /* INDEX/LANDING PAGE */
+
+.landing-breaks {
+  border-top: 2px solid #CCCCCC;
+  border-bottom: 2px solid #CCCCCC;
+}
 /* HEADER */
 
 .jumbotron {
@@ -260,7 +265,7 @@ nav a:hover {
 .sign-in-wrapper{
   border: 1px solid;
   border-color: #CCCCCC;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 5px;
 }
 
