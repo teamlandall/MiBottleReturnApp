@@ -4,7 +4,6 @@
 body {
     width: 100%;
     height: 100%;
-/*    padding: 10px 20px 5px 20px;*/
 }
 
 #wrapper {
@@ -66,39 +65,6 @@ a:visited {
 }
 
 
-/* HEADER */
-
-.jumbotron {
-    background-image: url('../images/glassbottles.jpg');
-/*    background-image: url('../images/beer-bottles1.jpg');
-    background-image: url('../images/beer-bottles4.jpg');*/
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Oswald', 'Arial', sans-serif;
-}
-
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
-.jumbotron h1 {
-  font-size: 4em;  
-  font-weight: bold;
-  text-align: center;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #113B08;
-  background-color: #ccc ;
-  border:1px solid #ccc;
-  border-radius:5px;
-  text-align:right;
-}
-
 /* NAVIGATION */
 
 nav a {
@@ -111,6 +77,10 @@ nav a {
 
 nav li {
   display: inline-block;
+}
+
+.logo {
+    height: 35px;
 }
 
 .pull-left {
@@ -130,7 +100,37 @@ nav a:hover {
 }
 
 /* INDEX/LANDING PAGE */
+/* HEADER */
 
+.jumbotron {
+    background-image: url('../images/beer-bottles-60.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', 'Arial', sans-serif;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  font-size: 4em;  
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #113B08;
+  background-color: #ccc ;
+  border:1px solid #ccc;
+  border-radius:5px;
+  text-align:right;
+}
 
 .hoarder-title, .contractor-title {
     text-align: center;
