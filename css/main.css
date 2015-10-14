@@ -645,5 +645,12 @@ h4 .first-name {
         margin: 10px;
     }
 
+    #current-loc-btn {
+      width: 151px;
+      margin-left: 0px;
+      /*margin-bottom: 5px;*/
+      
+}
+
 }
 
