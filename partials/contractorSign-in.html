@@ -3,6 +3,21 @@
 <script src="js/facebookLog-in.js"></script>
 
 <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-4">
+        <img src="../images/icons/marker-coffee.svg" class="icon">
+        <h3 class="icon-text"> Select Pick-up</h3>
+    </div>
+    <div class="col-xs-4">
+        <img src="../images/icons/bottles-bronze.svg" class="icon">
+        <h3 class="icon-text">Collect Bottles</h3>
+    </div>
+    <div class="col-xs-4">
+      <img src="../images/icons/get-paid.svg" class="icon">
+      <h3 class="icon-text"> Get Paid</h3>
+    </div>
+  </div>
+
   <div class="sign-in-wrapper">
     <h4> Earn Extra Cash </h4>
     <p> Sign Into Your Account </p>
@@ -18,7 +33,6 @@
         <input type="password" class="form-control" id="exampleInputPassword1">
       <a ng-click="cSignIn(cName)" role="button" class="btn btn-default btn-sm sign-in" href="#/contractor">Submit</a>
       </div>
-
 
     <div id='fb-btn'>
       <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
