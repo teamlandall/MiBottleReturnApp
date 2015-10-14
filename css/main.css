@@ -23,9 +23,9 @@ body {
   margin-left:20%;
 }
 
-/*#wrapper {
-    padding: 0 20px;
-}*/
+#center-text {
+  text-align: center;
+}
 
 
 .container-fluid {
@@ -45,6 +45,7 @@ body {
 
 #contractor-img{
   width: 40%;
+  max-width: 150px;
   height: auto;
   margin: 0 auto;
   border-radius: 50%;
@@ -56,6 +57,10 @@ body {
   height: auto;
 }
 
+#picture-star {
+  margin-top: 10px;
+}
+
 #picture-star p{
   text-align: center; 
 }
@@ -64,6 +69,12 @@ body {
     width: 80%;
     margin: 0 auto 20px auto;
     border-radius: 5px;
+}
+
+.icon {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -109,16 +120,20 @@ a:visited {
 }
 
 .cta-link:link {
-    color: blue;
+    color: #876f4a;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .cta-link:hover {
-    color: blue;
+    color: #876f4a;
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 .cta-link:visited {
-    color: blue;
+    color: #876f4a;
+    font-weight: bold;
 }
 
 .hidden-nav {
@@ -285,6 +300,12 @@ nav a:hover {
   font-size: .8em;
 }*/
 
+.icon-text {
+    color: #30250c; 
+    text-align: center;
+    margin-bottom: 35px;
+}
+
 #qty-heading{
   margin-top: 0px;
 }
@@ -339,6 +360,30 @@ nav a:hover {
   text-align: center;
 }
 
+#confirm-appt {
+ text-align: justify;
+ margin-top: 30px;
+}
+
+.glyphicon-star {
+  font-size: 2em;
+}
+
+.glyphicon-star-empty {
+  font-size: 2em;
+}
+
+.glyphicon-star-empty:hover {
+  color: black;
+}
+
+#total {
+  font-weight: bold;
+}
+
+
+
+
 /* clearing */
 
 .clearfix:before,
@@ -356,8 +401,11 @@ nav a:hover {
 .footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
+
     background-color: #806947;
-    /* background-color: #876f4a; */
+
+    /*background-color: #876f4a;*/
+    background-color: #665D1E;/* antique bronze */
     text-align: center;
     height: 150px;
     width: 100%;
@@ -384,7 +432,8 @@ nav a:hover {
     color: white;
     font-weight: bolder;
     text-align: left;
-    margin-left: 5px;
+    margin-top: 5px;
+    margin-left: -38px;
     padding-bottom: 5px;
     list-style: none!important;
 }
@@ -454,11 +503,32 @@ nav a:hover {
   padding-left:38%;
   }
 
+}
+
 @media(max-width: 975px){
   #time-pick {
     margin-top: -10px;
   }
   
+}
+
+@media(max-width: 845px){
+  /*#hoarder-img {
+    margin-top: 10px;
+    margin-left: 20px;
+  }*/
+
+  #confirm-appt {
+   text-align: justify;
+   margin-left: -10px;
+   margin-top: 30px;
+  }
+}
+
+@media(max-width: 755px){
+  #confirm-appt {
+    text-align: center;
+  }
 }
 
 @media(max-width:768px) {
@@ -483,6 +553,11 @@ nav a:hover {
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
   height: 430px;
+}
+  #confirm-appt {
+    text-align: ce;
+    padding-left: 30px;
+
   }
 }
 
@@ -530,11 +605,21 @@ nav a:hover {
   height: 450px;
 }
 
+  #confirm-appt {
+    text-align: justify;
+    padding-left: 30px;
+  }
+
 }
 
 @media(max-width:420px) {
     #bottle-table {
-        font-size: 0.93em;
+      font-size: 0.93em;
     }
+
+    #sm-pull-left {
+      margin-left: -10px;
+    }
+
 }
 
