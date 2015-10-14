@@ -401,11 +401,9 @@ nav a:hover {
 .footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
-
-    background-color: #806947;
-
-    /*background-color: #876f4a;*/
-    background-color: #665D1E;/* antique bronze */
+    /* background-color: #806947; medium brown*/
+    background-color: #876f4a;
+    /* background-color: #665D1E; antique bronze */
     text-align: center;
     height: 150px;
     width: 100%;
@@ -602,7 +600,7 @@ nav a:hover {
   margin:15px 15px 10px 15px;
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
-  height: 450px;
+  height: 460px;
 }
 
   #confirm-appt {
