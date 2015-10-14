@@ -116,16 +116,20 @@ a:visited {
 }
 
 .cta-link:link {
-    color: blue;
+    color: #876f4a;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .cta-link:hover {
-    color: blue;
+    color: #876f4a;
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 .cta-link:visited {
-    color: blue;
+    color: #876f4a;
+    font-weight: bold;
 }
 
 .hidden-nav {
@@ -293,7 +297,7 @@ nav a:hover {
 }*/
 
 .icon-text {
-    color: #876f4a;
+    color: #30250c; 
     text-align: center;
     margin-bottom: 35px;
 }
