@@ -1,11 +1,22 @@
 
 /* GENERAL */
+html
+ {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
     width: 100%;
     height: 100%;
-
+    margin-bottom: -100px;
     background-color: #e5e1cf;
+}
+.blurb {
+  margin:15px;
+  padding:30px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
 }
 
 /*#wrapper {
@@ -15,6 +26,7 @@ body {
 
 .container-fluid {
     margin-top: 10px;
+    margin-bottom:0px;
 }
 
 /* IMAGES */
@@ -342,14 +354,15 @@ nav a:hover {
     color: white;
     background-color: #876f4a;
     text-align: center;
-    height: 140px;
+    height: 150px;
     width: 100%;
     margin-top: 40px;
     margin-bottom:-20px;
     padding:5px 10px 5px 10px;
-    position:relative; 
+    position:absolute; 
     left:0px;
-    bottom:0px;
+    bottom:-150px;
+    margin-bottom: -150px;
 }
 .footer .copyright-notice {
     color: #2b2622;
@@ -402,7 +415,7 @@ nav a:hover {
     background-image: url('../images/botl-logo-browns-xs.png');
     background-repeat: no-repeat; 
     background-position: right bottom;
-    height: 190px;
+    height: 200px;
   }
   .footer .a2a_kit {
   position:relative;
@@ -422,7 +435,7 @@ nav a:hover {
     background-image: url('../images/botl-logo-browns-xs.png');
     background-repeat: no-repeat; 
     background-position: right top;
-    height: 220px;
+    height: 230px;
   }
 .footer .hide-small-view {
     display: none;
@@ -456,7 +469,7 @@ nav a:hover {
     margin-top: 15px;
     padding-top:5px;
     position:relative;
-    height: 235px;
+    height: 245px;
   }
   .footer .hide-small-view {
     display: none;

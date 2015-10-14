@@ -94,7 +94,6 @@ app.controller('confirmQtyController', function(){
   //Contractor View. Confirm Qty - Rate the Hoarder.
 });
 
-
 app.controller('404Controller', function(){
 
 });
