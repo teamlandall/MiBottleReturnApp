@@ -393,7 +393,8 @@ nav a:hover {
 .footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
-    background-color: #876f4a;
+    /*background-color: #876f4a;*/
+    background-color: #665D1E;/* antique bronze */
     text-align: center;
     height: 150px;
     width: 100%;
@@ -420,7 +421,8 @@ nav a:hover {
     color: white;
     font-weight: bolder;
     text-align: left;
-    margin-left: 5px;
+    margin-top: 5px;
+    margin-left: -38px;
     padding-bottom: 5px;
     list-style: none!important;
 }
@@ -561,6 +563,10 @@ nav a:hover {
 @media(max-width:420px) {
     #bottle-table {
       font-size: 0.93em;
+    }
+
+    #sm-pull-left {
+      margin-left: -10px;
     }
 
 }
