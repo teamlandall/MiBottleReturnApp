@@ -12,17 +12,16 @@ body {
     margin-bottom: -100px;
     background-color: #e5e1cf;
 }
-.blurb {
+/*.blurb {
   margin:15px;
   padding:30px;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 15px;
-}
-.center-me{
-  width:95%;
-  margin-left:20%;
-}
+}*/
 
+.center-text {
+  text-align: center;
+}
 #center-text {
   text-align: center;
 }
@@ -464,7 +463,11 @@ nav a:hover {
 /* TEAM CSS */
 
 .team .thumbnail {
-  margin:5px 20px 3px 5px;
+  margin:5px 25px 3px 15px;
+  padding: 5px;
+  width:215px;
+  clear:both;
+  display:inline-block;
   }
 
 .team {
@@ -472,7 +475,8 @@ nav a:hover {
   margin:15px;
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
-  height: 400px;
+  min-height: 400px;
+  position:relative;
   }
 
 .team .team-mate section {
@@ -480,7 +484,7 @@ nav a:hover {
   margin:15px;
   }
 
-.team .team-mate h4 .first-name {
+h4 .first-name {
   color:#262221;
   font-size: 115%;
   font-weight: bolder;
@@ -500,7 +504,6 @@ nav a:hover {
   position:relative;
   padding-left:38%;
   }
-
 }
 
 @media(max-width: 975px){
@@ -550,7 +553,7 @@ nav a:hover {
   margin:15px;
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
-  height: 430px;
+  min-height: 630px;
 }
   #confirm-appt {
     text-align: ce;
@@ -600,7 +603,23 @@ nav a:hover {
   margin:15px 15px 10px 15px;
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
-  height: 460px;
+  min-height: 650px;
+}
+.team .thumbnail {
+  margin:5px 10px 3px 10px;
+  width:160px;
+  }
+  .team li {
+    font-size: 80%;
+    list-style: none;
+    margin-left:-45px;
+    padding:3px;
+  }
+
+  .center-me{
+  width:85%;
+  margin-left:8%;
+  margin-right:7%;
 }
 
   #confirm-appt {
