@@ -62,6 +62,12 @@ body {
     border-radius: 5px;
 }
 
+.icon {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
 
 .faq-icon{
   height: 50px;
@@ -280,6 +286,12 @@ nav a:hover {
 /*#disclaimer{
   font-size: .8em;
 }*/
+
+.icon-text {
+    color: #876f4a;
+    text-align: center;
+    margin-bottom: 35px;
+}
 
 #qty-heading{
   margin-top: 0px;
