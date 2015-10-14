@@ -120,19 +120,19 @@ a:visited {
 }
 
 .cta-link:link {
-    color: #876f4a;
+    color: #665D1E;
     font-weight: bold;
     font-size: 1.1em;
 }
 
 .cta-link:hover {
-    color: #876f4a;
+    color: #665D1E;
     text-decoration: underline;
     font-weight: bolder;
 }
 
 .cta-link:visited {
-    color: #876f4a;
+    color: #665D1E;
     font-weight: bold;
 }
 
@@ -619,6 +619,13 @@ nav a:hover {
 
     #sm-pull-left {
       margin-left: -10px;
+    }
+
+}
+
+@media(max-width:320px) {
+    #confirm-appt {
+        margin: 10px;
     }
 
 }
