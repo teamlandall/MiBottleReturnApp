@@ -18,6 +18,10 @@ body {
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 15px;
 }
+.center-me{
+  width:95%;
+  margin-left:20%;
+}
 
 /*#wrapper {
     padding: 0 20px;
@@ -352,7 +356,8 @@ nav a:hover {
 .footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
-    background-color: #876f4a;
+    background-color: #806947;
+    /* background-color: #876f4a; */
     text-align: center;
     height: 150px;
     width: 100%;
@@ -409,6 +414,33 @@ nav a:hover {
   padding-bottom:5px;
   }
 
+/* TEAM CSS */
+
+.team .thumbnail {
+  margin:5px 20px 3px 5px;
+  }
+
+.team {
+  padding:15px;
+  margin:15px;
+  border: 2px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 400px;
+  }
+
+.team .team-mate section {
+  padding:15px;
+  margin:15px;
+  }
+
+.team .team-mate h4 .first-name {
+  color:#262221;
+  font-size: 115%;
+  font-weight: bolder;
+  font-family: 'Oswald', sans-serif; 
+  text-align: center;
+  }
+
 /* MEDIA QUERIES */
 @media(max-width:1200px) {
 .footer {
@@ -444,6 +476,14 @@ nav a:hover {
   position:relative;
   padding-left:35%;
   }
+
+  .team {
+  padding:15px;
+  margin:15px;
+  border: 2px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 430px;
+  }
 }
 
 @media(max-width:475px){
@@ -463,7 +503,7 @@ nav a:hover {
 
   .footer {
     font-size: 95%;
-    background-image: url('../images/botl-logo-browns-xs.png');
+    background-image: url('../images/botl-logo-browns-xxs.png');
     background-repeat: no-repeat; 
     background-position: right top;
     margin-top: 15px;
@@ -482,6 +522,13 @@ nav a:hover {
   .pull-right {
     margin-right: -20px;
   }
+  .team {
+  padding:10px 15px 15px 15px;
+  margin:15px 15px 10px 15px;
+  border: 2px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 450px;
+}
 
 }
 
