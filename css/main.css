@@ -463,16 +463,16 @@ nav a:hover {
 /* TEAM CSS */
 
 .team .thumbnail {
-  margin:5px 25px 3px 15px;
+  margin:5px 15px 3px 10px;
   padding: 5px;
-  width:215px;
+  width:200px;
   clear:both;
   display:inline-block;
   }
 
 .team {
-  padding:15px;
-  margin:15px;
+  padding:10px;
+  margin:10px;
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
   min-height: 400px;
@@ -480,14 +480,21 @@ nav a:hover {
   }
 
 .team .team-mate section {
-  padding:15px;
-  margin:15px;
+  padding:10px;
+  margin:10px;
   }
 
-h4 .first-name {
+.first-name {
   color:#262221;
-  font-size: 115%;
+  font-size: 1.75em;
   font-weight: bolder;
+  font-family: 'Oswald', sans-serif; 
+  text-align: center;
+  }
+.bigger{
+  font-size: 4em;
+  color:#262221;
+  font-weight: bold;
   font-family: 'Oswald', sans-serif; 
   text-align: center;
   }
@@ -549,8 +556,8 @@ h4 .first-name {
   }
 
   .team {
-  padding:15px;
-  margin:15px;
+  padding:10px;
+  margin:10px;
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
   min-height: 630px;
@@ -599,15 +606,15 @@ h4 .first-name {
     margin-right: -20px;
   }
   .team {
-  padding:10px 15px 15px 15px;
+  padding:10px 10px 10px 10px;
   margin:15px 15px 10px 15px;
   border: 2px solid #ccc;
   background-color: rgba(255, 255, 255, 0.25);
   min-height: 650px;
 }
 .team .thumbnail {
-  margin:5px 10px 3px 10px;
-  width:160px;
+  margin:5px 5px 3px 5px;
+  width:150px;
   }
   .team li {
     font-size: 80%;
