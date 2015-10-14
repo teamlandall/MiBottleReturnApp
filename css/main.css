@@ -8,9 +8,9 @@ body {
     background-color: #e5e1cf;
 }
 
-/*#wrapper {
-    padding: 0 20px;
-}*/
+#center-text {
+  text-align: center;
+}
 
 
 .container-fluid {
@@ -29,6 +29,7 @@ body {
 
 #contractor-img{
   width: 40%;
+  max-width: 150px;
   height: auto;
   margin: 0 auto;
   border-radius: 50%;
@@ -38,6 +39,10 @@ body {
   width: 40%;
   max-width: 150px;
   height: auto;
+}
+
+#picture-star {
+  margin-top: 10px;
 }
 
 #picture-star p{
@@ -323,6 +328,30 @@ nav a:hover {
   text-align: center;
 }
 
+#confirm-appt {
+ text-align: justify;
+ margin-top: 30px;
+}
+
+.glyphicon-star {
+  font-size: 2em;
+}
+
+.glyphicon-star-empty {
+  font-size: 2em;
+}
+
+.glyphicon-star-empty:hover {
+  color: black;
+}
+
+#total {
+  font-weight: bold;
+}
+
+
+
+
 /* clearing */
 
 .clearfix:before,
@@ -409,11 +438,32 @@ nav a:hover {
   padding-left:38%;
   }
 
+}
+
 @media(max-width: 975px){
   #time-pick {
     margin-top: -10px;
   }
   
+}
+
+@media(max-width: 845px){
+  /*#hoarder-img {
+    margin-top: 10px;
+    margin-left: 20px;
+  }*/
+
+  #confirm-appt {
+   text-align: justify;
+   margin-left: -10px;
+   margin-top: 30px;
+  }
+}
+
+@media(max-width: 755px){
+  #confirm-appt {
+    text-align: center;
+  }
 }
 
 @media(max-width:768px) {
@@ -430,6 +480,12 @@ nav a:hover {
   .footer .a2a_kit {
   position:relative;
   padding-left:35%;
+  }
+
+  #confirm-appt {
+    text-align: ce;
+    padding-left: 30px;
+
   }
 }
 
@@ -470,11 +526,17 @@ nav a:hover {
     margin-right: -20px;
   }
 
+  #confirm-appt {
+    text-align: justify;
+    padding-left: 30px;
+  }
+
 }
 
 @media(max-width:420px) {
     #bottle-table {
-        font-size: 0.93em;
+      font-size: 0.93em;
     }
+
 }
 

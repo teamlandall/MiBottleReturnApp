@@ -1,27 +1,31 @@
 <h1> {{ userName }} </h1>
 
 
-
 	<h3 id="contractor-confirm-heading"> Charlie, you are confirmed! </h3>
 
 	<div ng-repeat="data in reservedHoarder">
+	<div class="row">
+		<div id="picture-col" class="col-sm-6">
+			<div id="picture-star">
+				<p><img id="hoarder-img" src="images/landall.jpg"></p>
+				<p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+	 			class="glyphicon glyphicon-star-empty"></span></p>
+	 		</div>
+		</div>
+		<div class="col-sm-6" id="confirm-appt">
+			<p> Landall Proctor is expecting you at </p>
+			<p> {{data.time | date: 'h:mm a'}} on {{ data.date | date: 'MMMM dd, yyyy'}}.</p>
 
-		<div id="picture-star">
-			<p><img id="hoarder-img" src="images/landall.jpg"></p>
-			<!-- ADD IN FONT AWESOME STAR RATINGS HERE!!! -->
-		
+			<p> The Address is:</p>
+			<p>{{ data.address }}</p>
 
-		<p> Landall Proctor is expecting you at </p>
-		<p> {{data.time | date: 'h:mm a'}} on {{ data.date | date: 'MMMM dd, yyyy'}}.</p>
-
-		<p> The Address is:</p>
-		<p>{{ data.address }}</p>
-
-		<p>You should expect to pick up a total of {{ data.qty }} bottles.</p>
-	
-
-	<p> Don't be late! </p>
+			<p>You should expect to pick up a total of {{ data.qty }} bottles.</p>
+		</div>
 	</div>
-	<a class="hidden-nav" href="#/pickUpConfirmed">  .. </a>
+
+	<h5 id="center-text"> <a href="#/pickUpConfirmed">Don't be late! </a></h5> 
+	</div>
+	</div>
+	
 
 </div>
