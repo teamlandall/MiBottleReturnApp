@@ -1,7 +1,10 @@
-
 /* GENERAL */
-html
- {
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
   position: relative;
   min-height: 100%;
 }
@@ -12,12 +15,14 @@ body {
     margin-bottom: -100px;
     background-color: #e5e1cf;
 }
-/*.blurb {
-  margin:15px;
-  padding:30px;
-  background-color: rgba(255, 255, 255, 0.25);
-  border-radius: 15px;
-}*/
+
+h2, h3, h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 900;
+}
 
 .center-text {
   text-align: center;
@@ -76,31 +81,6 @@ body {
     margin: 0 auto;
 }
 
-
-.faq-icon{
-  height: 50px;
-  width:50px;
-}
-
-.donate-icon{
-  height: 50px;
-  width:50px;
-}
-
-.covered-icon{
-  height:50px;
-  width:50px;
-}
-
-.money-icon{
-  height:50px;
-  width:50px;
-}
-
-
-
-
-
 /* LINKS */
 
 a:link {
@@ -119,19 +99,19 @@ a:visited {
 }
 
 .cta-link:link {
-    color: #665D1E;
+    color: #876f4a;
     font-weight: bold;
     font-size: 1.1em;
 }
 
 .cta-link:hover {
-    color: #665D1E;
+    color: #876f4a;
     text-decoration: underline;
     font-weight: bolder;
 }
 
 .cta-link:visited {
-    color: #665D1E;
+    color: #876f4a;
     font-weight: bold;
 }
 
@@ -295,10 +275,6 @@ nav a:hover {
 
 /* HOARDER VIEWS */
 
-/*#disclaimer{
-  font-size: .8em;
-}*/
-
 .icon-text {
     color: #30250c; 
     text-align: center;
@@ -400,9 +376,7 @@ nav a:hover {
 .footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
-    /* background-color: #806947; medium brown*/
     background-color: #876f4a;
-    /* background-color: #665D1E; antique bronze */
     text-align: center;
     height: 150px;
     width: 100%;
@@ -493,6 +467,7 @@ h4 .first-name {
   }
 
 /* MEDIA QUERIES */
+
 @media(max-width:1200px) {
 .footer {
     background-image: url('../images/botl-logo-browns-xs.png');
