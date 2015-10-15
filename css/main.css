@@ -205,6 +205,10 @@ nav a:hover {
     text-align: center;
 }
 
+.intro-heading {
+    padding: 25px;
+}
+
 .about, .charity, .faqs, .how-it-works, .intro {
     padding: 0 40px;
 }
