@@ -5,7 +5,6 @@
 }
 
 html {
-  position: relative;
   min-height: 100%;
 }
 
@@ -203,10 +202,15 @@ nav a:hover {
 
 .intro {
     margin-top: 325px;
+    text-align: center;
 }
 
 .about, .charity, .faqs, .how-it-works, .intro {
     padding: 0 40px;
+}
+
+.charity {
+    margin-bottom: 25px;
 }
 
 
@@ -316,6 +320,7 @@ nav a:hover {
   border-color: #CCCCCC;
   border-radius: 4px;
   padding: 5px;
+  margin-bottom: 15px;
 }
 
 .sign-in-wrapper h3{
@@ -374,11 +379,57 @@ nav a:hover {
 /* FOOTER */
 
 .footer {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: #876f4a;
+    text-align: center;
+    height: 210px;
+    width: 100%;
+    position: relative;
+}
+
+.footer a{
+  color:white;
+  text-decoration: none;
+}
+
+.footer a:hover{
+ color:#30250c; 
+}
+
+.footer-nav {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.a2a_kit {
+    width: 170px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.copyright-notice {
+    text-align: center;
+    color: #2b2622;
+}
+
+.footer-image {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 20%;
+}
+
+/*
+.footer {
     font-family: 'Oswald', 'Arial', sans-serif;
     color: white;
     background-color: #876f4a;
     text-align: center;
-    height: 150px;
+    height: 175px;
     width: 100%;
     margin-top: 40px;
     margin-bottom:-20px;
@@ -418,21 +469,10 @@ nav a:hover {
     background-repeat: no-repeat; 
     background-position: right top;
 }
-.footer a{
-  color:white;
-  text-decoration: none;
-}
 
-.footer a:hover{
- color:#30250c; 
-}
 
-.footer .a2a_kit {
-  position:relative;
-  padding-left:43%;
-  padding-top:5px;
-  padding-bottom:5px;
-  }
+*/
+
 
 /* TEAM CSS */
 
@@ -476,7 +516,7 @@ nav a:hover {
 /* MEDIA QUERIES */
 
 @media(max-width:1200px) {
-.footer {
+/* .footer {
     background-image: url('../images/botl-logo-browns-xs.png');
     background-repeat: no-repeat; 
     background-position: right bottom;
@@ -485,7 +525,7 @@ nav a:hover {
   .footer .a2a_kit {
   position:relative;
   padding-left:38%;
-  }
+  } */
 }
 
 @media(max-width: 975px){
@@ -515,7 +555,7 @@ nav a:hover {
 }
 
 @media(max-width:768px) {
-.footer {
+/* .footer {
     font-size: 95%;
     background-image: url('../images/botl-logo-browns-xs.png');
     background-repeat: no-repeat; 
@@ -528,7 +568,7 @@ nav a:hover {
   .footer .a2a_kit {
   position:relative;
   padding-left:35%;
-  }
+  } */
 
   .team {
   padding:10px;
@@ -558,7 +598,7 @@ nav a:hover {
   #c-sign-in{
     margin-top: 0px;
   }
-
+/*
   .footer {
     font-size: 95%;
     background-image: url('../images/botl-logo-browns-xxs.png');
@@ -575,7 +615,7 @@ nav a:hover {
   .footer .a2a_kit {
   position:relative;
   padding-left:20%;
-  }
+  } */
 
   .pull-right {
     margin-right: -20px;
@@ -618,6 +658,16 @@ nav a:hover {
 
     #sm-pull-left {
       margin-left: -10px;
+    }
+
+    .footer {
+        height: 275px;
+    }
+
+    .footer-image {
+        position: static;
+        margin: 0 auto;
+        width: 30%;
     }
 
 }
