@@ -313,6 +313,10 @@ nav a:hover {
   text-align: center;
 }
 
+.hoarder-confirm {
+    margin-bottom: 35%;
+}
+
 /* CONTRACTOR VIEWS */
 
 .sign-in-wrapper{
@@ -345,6 +349,14 @@ nav a:hover {
  margin-top: 30px;
 }
 
+.confirmation {
+    margin-bottom: 20%;
+}
+
+.pickup-confirm {
+    margin-bottom: 20%;
+}
+
 .glyphicon-star {
   font-size: 2em;
 }
@@ -361,7 +373,13 @@ nav a:hover {
   font-weight: bold;
 }
 
+.confirm-rating {
+    margin-bottom: 25%;
+}
 
+.payment-table {
+    margin-bottom: 10%;
+}
 
 
 /* clearing */
