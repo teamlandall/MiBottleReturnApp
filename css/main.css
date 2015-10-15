@@ -421,6 +421,8 @@ nav a:hover {
     right: 10px;
     bottom: 10px;
     width: 20%;
+    max-height: 175px;
+    max-width: 300px;
 }
 
 /* TEAM CSS */
