@@ -452,6 +452,11 @@ nav a:hover {
   clear:both;
   display:inline-block;
   }
+  .team li {
+    list-style: none;
+    font-size: 1.25em;
+    padding:5px 10px 5px 10px;
+  }
 
 .team {
   padding:10px;
@@ -463,8 +468,8 @@ nav a:hover {
   }
 
 .team .team-mate section {
-  padding:10px;
-  margin:10px;
+  padding:5px;
+  margin:5px;
   }
 
 .first-name {
