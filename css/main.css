@@ -423,57 +423,6 @@ nav a:hover {
     width: 20%;
 }
 
-/*
-.footer {
-    font-family: 'Oswald', 'Arial', sans-serif;
-    color: white;
-    background-color: #876f4a;
-    text-align: center;
-    height: 175px;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom:-20px;
-    padding:5px 10px 5px 10px;
-    position:absolute; 
-    left:0px;
-    bottom:-150px;
-    margin-bottom: -150px;
-}
-.footer .copyright-notice {
-    color: #2b2622;
-    font-size: 100%;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 15px;
-    padding-bottom: 45px;
-    position: relative; 
-    z-index: 550;
-}
-.footer li{
-    font-family:'Arial', sans-serif;
-    color: white;
-    font-weight: bolder;
-    text-align: left;
-    margin-top: 5px;
-    margin-left: -38px;
-    padding-bottom: 5px;
-    list-style: none!important;
-}
-.footer h4{
-    color: #2b2622;
-    text-align: center;
-    padding-bottom: 5px;
-}
-.footer {
-    background-image: url('../images/botl-logo-browns-xs.png');
-    background-repeat: no-repeat; 
-    background-position: right top;
-}
-
-
-*/
-
-
 /* TEAM CSS */
 
 .team .thumbnail {
@@ -515,19 +464,6 @@ nav a:hover {
 
 /* MEDIA QUERIES */
 
-@media(max-width:1200px) {
-/* .footer {
-    background-image: url('../images/botl-logo-browns-xs.png');
-    background-repeat: no-repeat; 
-    background-position: right bottom;
-    height: 200px;
-  }
-  .footer .a2a_kit {
-  position:relative;
-  padding-left:38%;
-  } */
-}
-
 @media(max-width: 975px){
   #time-pick {
     margin-top: -10px;
@@ -555,21 +491,7 @@ nav a:hover {
 }
 
 @media(max-width:768px) {
-/* .footer {
-    font-size: 95%;
-    background-image: url('../images/botl-logo-browns-xs.png');
-    background-repeat: no-repeat; 
-    background-position: right top;
-    height: 230px;
-  }
-.footer .hide-small-view {
-    display: none;
-  }
-  .footer .a2a_kit {
-  position:relative;
-  padding-left:35%;
-  } */
-
+  
   .team {
   padding:10px;
   margin:10px;
@@ -598,24 +520,6 @@ nav a:hover {
   #c-sign-in{
     margin-top: 0px;
   }
-/*
-  .footer {
-    font-size: 95%;
-    background-image: url('../images/botl-logo-browns-xxs.png');
-    background-repeat: no-repeat; 
-    background-position: right top;
-    margin-top: 15px;
-    padding-top:5px;
-    position:relative;
-    height: 245px;
-  }
-  .footer .hide-small-view {
-    display: none;
-  }
-  .footer .a2a_kit {
-  position:relative;
-  padding-left:20%;
-  } */
 
   .pull-right {
     margin-right: -20px;
@@ -627,6 +531,7 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.25);
   min-height: 650px;
 }
+
 .team .thumbnail {
   margin:5px 5px 3px 5px;
   width:150px;
