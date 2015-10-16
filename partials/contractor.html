@@ -33,7 +33,7 @@
 	  <input type="text" ng-model="searchList" placeholder="Filter Pickups" id="search" />
 	  <table class="table-hover table" > 
 	      <tr> 
-	        <th>Availabe Reservations</th>
+	        <th>Available Reservations</th>
 	      </tr>  
       	<tr ng-repeat="data in databaseOfUsers | filter:searchList">
 	        <td ng-model="data.address"> {{ data.address }} </p>
